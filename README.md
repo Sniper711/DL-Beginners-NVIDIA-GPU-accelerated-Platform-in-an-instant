@@ -25,7 +25,8 @@ Restore USB Image:
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop,  
 ![text]https://github.com/Sniper711/DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant/photo/Picture1a.png  
-https://github.com/Sniper711/DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant/blob/master/photo/Picture1a.png
+![test]https://github.com/Sniper711/DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant/blob/master/photo/Picture1a.png  
+
 
 ![描述]https://imgur.com/OOlgmFg
 
