@@ -11,7 +11,7 @@ Preparation：
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
-2. Use Windows 10 Disk Management to combine USB Drive 2 partitions into just 1.  
+2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
    New USB Drive used to have 2 partitions that we cannot use.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
