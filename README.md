@@ -19,6 +19,7 @@ Preparation：
 4. Download 21GB USB Drive image I prepared for you.  
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
+   
 Restore USB Image:
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
