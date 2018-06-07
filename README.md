@@ -24,7 +24,7 @@ Restore USB Image:
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop,  
-![text]https://imgur.com/OOlgmFg  
+![text]https://github.com/Sniper711/DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant/Picture1a.png
 
 ![描述]https://imgur.com/OOlgmFg
 
