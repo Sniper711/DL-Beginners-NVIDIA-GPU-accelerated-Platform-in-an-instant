@@ -9,7 +9,6 @@ Done & start using Jupyter Notebook for DL coding.
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
 Preparation：
 1.	Buy 1pcs high speed USB Drive 64GB or 128GB.  
-
     (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)
     (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)
     
