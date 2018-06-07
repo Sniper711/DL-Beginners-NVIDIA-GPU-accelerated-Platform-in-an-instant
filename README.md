@@ -13,13 +13,16 @@ Preparation：
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
 2. Use Windows 10 Disk Management to combine USB Drive 2 partitions into just 1.  
    New USB Drive used to have 2 partitions that we cannot use.  
-   (7 ways to open Windows Disk Management https://goo.gl/SpLMqW )  
+   (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
    Link = https://www.acronis.com/en-us/personal/computer-backup/  
 4. Download 21GB USB Drive image I prepared for you.  
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
-
+Restore USB Image:
+1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
+2. Move downloaded 21GB USB Drive image to windows desktop.  
+3. Right click that 21GB Drive image icon on desktop,  
 
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
