@@ -9,14 +9,16 @@ Done & start using Jupyter Notebook for DL coding.
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
 Preparation：
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
-    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
-    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
-2. New USB Drive used to have 2 partitions. 
+   (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
+   (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
+2. Use Windows 10 Disk Management to combine USB Drive 2 partitions into just 1.  
+   New USB Drive used to have 2 partitions that we cannot use.  
+   (7 ways to open Windows Disk Management https://goo.gl/SpLMqW )  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
-    Link = https://www.acronis.com/en-us/personal/computer-backup/  
-4.	Download 21GB USB Drive image I prepared for you.  
-    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
-    Link = https://goo.gl/FF3dQ2  
+   Link = https://www.acronis.com/en-us/personal/computer-backup/  
+4. Download 21GB USB Drive image I prepared for you.  
+   File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
+   Link = https://goo.gl/FF3dQ2  
 
 
 
