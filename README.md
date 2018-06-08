@@ -14,6 +14,7 @@ Preparation：
 2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
    New USB Drive used to have 2 partitions that we cannot use.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
+   Format the Single Partition USB Drive in any format that Windows can recognize.  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
    Link = https://www.acronis.com/en-us/personal/computer-backup/  
 4. Download 21GB USB Drive image I prepared for you.  
@@ -35,7 +36,16 @@ Restore USB Image :
    Choose the 'Recovery now' on the bottom right. (STEP6)  
    On the next pop up page, Check the **'Shot down the computer after completion'** on the bottom. Important! (STEP7)
 ![](/photo/Picture1d.png)  
+7. Automatially shot down after Restore USB Image.  
 
+Setup motherboard BIOS :  
+1. While booting up, enter motherboard BIOS settings.  
+2. **Turn off 'Security Boot'**.  
+3. Remain default 'UEFI boot' option without change it.  
+4. On the **'Boot Priority/Sequency' choose to boot from this USB Drive**.  
+
+Start DL Coding :  
+1. 
 
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
