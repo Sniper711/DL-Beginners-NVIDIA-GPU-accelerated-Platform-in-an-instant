@@ -33,7 +33,7 @@ Restore USB Image :
 6. Choose the 'Backup Image' on the middle left. (STEP4)  
    Choose the 'Recover to' empty USB Disk on the middle right. (STEP5)  
    Choose the 'Recovery now' on the bottom right. (STEP6)  
-   On the next pop up page, Check the 'Shot down the computer after completion' on the bottom. Important! (STEP7)
+   On the next pop up page, Check the **'Shot down the computer after completion'** on the bottom. Important! (STEP7)
 ![](/photo/Picture1d.png)  
 
 
