@@ -20,13 +20,23 @@ Preparation：
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
    
-Restore USB Image:
+Restore USB Image :
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop, click 'Acronix True Image', then click 'Validate'.  
 ![](/photo/Picture1a.png)  
-4. Acronix True Image app will be launched, see/press the image been added on the upper left. (STEP1)  
-![](/photo/Picture1b.png)
+4. Acronix True Image app will be launched, choose the image been added on the upper left. (STEP1)  
+![](/photo/Picture1b.png)  
+5. Choose 'Recovery' on the top. (STEP2)  
+   Choose 'Recovery disk' on the bottom. (STEP3)  
+![](/photo/Picture1c.png)
+6. Choose the 'Backup Image' on the middle left. (STEP4)  
+   Choose the 'Recover to' empty USB Disk on the middle right. (STEP5) 
+   Choose the 'Recovery now' on the bottom right. (STEP6)  
+   On the next pop up page, Check the 'Shot down the computer after completion' on the bottom. Important! (STEP7)
+![](/photo/Picture1d.png)  
+
+
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
 
