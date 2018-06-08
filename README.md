@@ -27,7 +27,7 @@ Restore USB Image:
 ![test](/photo/Picture1a.png)  
 
 
-![描述]https://imgur.com/OOlgmFg
+![描述](https://imgur.com/OOlgmFg)
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
 
