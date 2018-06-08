@@ -7,7 +7,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 Done & start using Jupyter Notebook for DL coding.
 
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
-Preparation：
+**Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
@@ -21,7 +21,7 @@ Preparation：
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
    
-Restore USB Image :
+**Restore USB Image:**  
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop, click 'Acronix True Image', then click 'Validate'.  
@@ -38,7 +38,7 @@ Restore USB Image :
 ![](/photo/Picture1d.png)  
 7. Automatially shot down after Restore USB Image.  
 
-Setup motherboard BIOS :  
+**Setup motherboard BIOS:**  
 1. While booting up, enter motherboard BIOS settings.  
 2. **Turn off 'Security Boot'**.  
 3. Remain default 'UEFI boot' option without change it.  
