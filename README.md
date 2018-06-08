@@ -3,11 +3,11 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 
 # How - check quick video https://youtu.be/_T55PHJ0USQ
 1. Restore Image to a high speed USB Drive.  
-2. On NVIDIA GPU Desktop/Laptop, change motherboard BIOS settings and boot from USB Drive.  
+2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
 Done & start using Jupyter Notebook for DL coding.
 
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
-**Preparation:** 
+**One-time Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
@@ -21,7 +21,7 @@ Done & start using Jupyter Notebook for DL coding.
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
    
-**Restore USB Image:**  
+**One-time Restore USB Image:**  
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop, click 'Acronix True Image', then click 'Validate'.  
@@ -38,17 +38,21 @@ Done & start using Jupyter Notebook for DL coding.
 ![](/photo/Picture1d.png)  
 7. Automatially shot down after Restore USB Image.  
 
-**Setup motherboard BIOS:**  
-When power off, plug-in the USB Drive.
-1. While booting up, enter motherboard BIOS settings.  
-2. **Turn off 'Security Boot'**.  
-3. Remain default 'UEFI boot' option without change it.  
-4. On the **'Boot Priority/Sequency' choose to boot from the USB Drive**.  
-5. Save changes and boot.  
-It will boot into Ubuntu, the Ubuntu login password = **nvidia**  
+**One-time Setup motherboard BIOS:**  
+1. When power off, plug-in the USB Drive.
+2. While booting up, enter motherboard BIOS settings.  
+3. **Turn off 'Security Boot'**.  
+4. Remain default 'UEFI boot' option without change it.  
+5. On the **'Boot Priority/Sequency' choose to boot from the USB Drive**.  
+6. Save changes and boot.  
+7. It will boot into Ubuntu, the Ubuntu login password = **nvidia**  
+8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
+9. Type command **sudo nvidia-smi** to exam if correct NVIDIA GPU model is recognized and listed.
 
-**Start DL Coding, NOW:**  
-1. Plug-in 
+**Everytime Start DL Coding:**  
+1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
+2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
+3. Type commend  
 
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
