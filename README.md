@@ -39,13 +39,16 @@ Done & start using Jupyter Notebook for DL coding.
 7. Automatially shot down after Restore USB Image.  
 
 **Setup motherboard BIOS:**  
+When power off, plug-in the USB Drive.
 1. While booting up, enter motherboard BIOS settings.  
 2. **Turn off 'Security Boot'**.  
 3. Remain default 'UEFI boot' option without change it.  
-4. On the **'Boot Priority/Sequency' choose to boot from this USB Drive**.  
+4. On the **'Boot Priority/Sequency' choose to boot from the USB Drive**.  
+5. Save changes and boot.  
+It will boot into Ubuntu, the Ubuntu login password = **nvidia**  
 
-Start DL Coding :  
-1. 
+**Start DL Coding, NOW:**  
+1. Plug-in 
 
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
