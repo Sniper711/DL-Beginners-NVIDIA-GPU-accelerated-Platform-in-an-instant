@@ -61,7 +61,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
 ![](/photo/Picture3c.png)  
 
-**NOTE**: The USB come with a DL example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
+**NOTE**: The USB includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
 Use 60000 hand write 0~9 texts for DL converlutional train on NVIDIA GPU. 
 ![](/photo/Picture3d.png)  
