@@ -51,7 +51,7 @@ Congratulation, you can start using Jupyter Notebook editor for DL coding.
 ![](/photo/Picture2a.png)  
 10. Type command **sudo docker start -ai tensorflowkeras** to run the docker image calls tensorflowkeras.  
 ![](/photo/Picture3a.png)  
-
+ 
 **Everytime Start DL Coding:**  
 1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
 2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
