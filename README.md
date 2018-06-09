@@ -63,8 +63,9 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 
 **NOTE**: The USB includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
-Use 60000 hand write 0~9 texts for DL converlutional train on NVIDIA GPU. 
+Use 60000 hand write 0~9 texts for DL convolutional training on NVIDIA GPU. 
 ![](/photo/Picture3d.png)  
 
 # Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
 
+# Postscript
