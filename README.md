@@ -2,7 +2,7 @@
 DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an instant.
 
 # How - check quick video https://youtu.be/_T55PHJ0USQ
-1. Restore `Image` to a high speed USB Drive.  
+1. Restore Image to a high speed USB Drive.  
 2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
    Congratulations. You can start using Jupyter Notebook editor for DL coding.
 
@@ -34,7 +34,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 6. Choose the 'Backup Image' on the middle left. (STEP4)  
    Choose the 'Recover to' empty USB Disk on the middle right. (STEP5)  
    Choose the 'Recovery now' on the bottom right. (STEP6)  
-   On the next pop up page, Check the **'Shot down the computer after completion'** on the bottom. Important! (STEP7)
+   On the next pop up page, Check the `'Shot down the computer after completion'` on the bottom. Important! (STEP7)
 ![](/photo/Picture1d.png)  
 7. Automatially shot down after Restore USB Image.  
 
