@@ -7,7 +7,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 Congratulations. You can start using Jupyter Notebook editor for DL coding.
 
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
-**One-time Preparation:** 
+**(One-time) Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
@@ -21,7 +21,7 @@ Congratulations. You can start using Jupyter Notebook editor for DL coding.
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
    
-**One-time Restore USB Image:**  
+**(One-time) Restore USB Image:**  
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop, click 'Acronix True Image', then click 'Validate'.  
@@ -38,7 +38,7 @@ Congratulations. You can start using Jupyter Notebook editor for DL coding.
 ![](/photo/Picture1d.png)  
 7. Automatially shot down after Restore USB Image.  
 
-**One-time Setup motherboard BIOS & test it:**  
+**(One-time) Setup motherboard BIOS and test USB Drive:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
 3. **Turn off 'Security Boot'**.  
@@ -49,18 +49,16 @@ Congratulations. You can start using Jupyter Notebook editor for DL coding.
 8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
 9. Type command **nvidia-smi** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
-10. Type command **sudo docker start -ai tensorflowkeras** to run the 'tensorflowkeras' docker image.  
-   Ubuntu login password = **nvidia**  
-![](/photo/Picture3a.png)  
-11. It will show a link, right click mouse to open that link  
-![](/photo/Picture3b.png)  
  
 **Everytime Start DL Coding:**  
 1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
 2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
-3. Type commend  
+3. Type command **sudo docker start -ai tensorflowkeras** to run the 'tensorflowkeras' docker image.  
+   Ubuntu login password = **nvidia**  
 ![](/photo/Picture3a.png)  
+4. It will show a link, right click mouse to open that link with Firefox.  
+![](/photo/Picture3b.png)  
+5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!
 
-
-# Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
+# Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
 
