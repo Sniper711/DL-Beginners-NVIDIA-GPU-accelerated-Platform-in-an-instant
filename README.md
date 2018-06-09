@@ -1,10 +1,10 @@
 # DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant
 DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an instant.
 
-# How - check quick video https://youtu.be/_T55PHJ0USQ
+`# How - check quick video https://youtu.be/_T55PHJ0USQ
 1. Restore Image to a high speed USB Drive.  
 2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
-Congratulations. You can start using Jupyter Notebook editor for DL coding.
+Congratulations. You can start using Jupyter Notebook editor for DL coding.`
 
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
 **(One-time) Preparation:** 
@@ -50,7 +50,7 @@ Congratulations. You can start using Jupyter Notebook editor for DL coding.
 9. Type command **nvidia-smi** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
  
-**Everytime Start DL Coding:**  
+`**Everytime Start DL Coding:**  
 1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
 2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
 3. Type command **sudo docker start -ai tensorflowkeras** to run the 'tensorflowkeras' docker image.  
@@ -58,7 +58,7 @@ Congratulations. You can start using Jupyter Notebook editor for DL coding.
 ![](/photo/Picture3a.png)  
 4. It will show a link, right click mouse to open that link with Firefox.  
 ![](/photo/Picture3b.png)  
-5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!
+5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!`
 
 # Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
 
