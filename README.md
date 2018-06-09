@@ -38,7 +38,7 @@ Congratulations. You can start using Jupyter Notebook editor for DL coding.
 ![](/photo/Picture1d.png)  
 7. Automatially shot down after Restore USB Image.  
 
-**One-time Setup motherboard BIOS:**  
+**One-time Setup motherboard BIOS & test it:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
 3. **Turn off 'Security Boot'**.  
