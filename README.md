@@ -36,7 +36,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
    Choose the 'Recovery now' on the bottom right. (STEP6)  
    On the next pop up page, Check the **`'Shot down the computer after completion'`** on the bottom. Important! (STEP7)
 ![](/photo/Picture1d.png)  
-7. Automatially shot down after Restore USB Image.  
+7. Automatically shot down after Restore USB Image.  
 
 **(One-time) Setup motherboard BIOS and test USB Drive:**  
 1. When power off, plug-in the USB Drive.
