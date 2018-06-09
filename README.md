@@ -47,14 +47,14 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 6. Save changes and boot.  
 7. It will boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
 8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
-9. Type command **nvidia-smi** to exam if your NVIDIA GPU model is correctly recognized and listed.  
+9. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
  
 **Everytime Start DL Coding:**  
-1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
+1. Boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
 2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
-3. Type command **sudo docker start -ai tensorflowkeras** to run the 'tensorflowkeras' docker image.  
-   Ubuntu login password = **nvidia**  
+3. Type command **`sudo docker start -ai tensorflowkeras`** to run the 'tensorflowkeras' docker image.  
+   Ubuntu login password = **`nvidia`**  
 ![](/photo/Picture3a.png)  
 4. It will show a link, right click mouse to open that link with Firefox.  
 ![](/photo/Picture3b.png)  
