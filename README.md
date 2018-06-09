@@ -34,16 +34,16 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 6. Choose the 'Backup Image' on the middle left. (STEP4)  
    Choose the 'Recover to' empty USB Disk on the middle right. (STEP5)  
    Choose the 'Recovery now' on the bottom right. (STEP6)  
-   On the next pop up page, Check the `'Shot down the computer after completion'` on the bottom. Important! (STEP7)
+   On the next pop up page, Check the **`'Shot down the computer after completion'`** on the bottom. Important! (STEP7)
 ![](/photo/Picture1d.png)  
 7. Automatially shot down after Restore USB Image.  
 
 **(One-time) Setup motherboard BIOS and test USB Drive:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
-3. `Turn off 'Security Boot'`.  
+3. **`Turn off 'Security Boot'`**.  
 4. Remain default 'UEFI boot' option without change it.  
-5. On the `'Boot Priority/Sequency' choose to boot from the USB Drive`.  
+5. On the **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
 6. Save changes and boot.  
 7. It will boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
 8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
