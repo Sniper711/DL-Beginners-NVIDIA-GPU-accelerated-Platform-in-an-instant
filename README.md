@@ -45,9 +45,9 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 4. On BIOS. Remain default 'UEFI boot' option without change it.  
 5. On BIOS. **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
 6. On BIOS. Save changes and reboot.  
-7. It will boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
-8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
-9. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
+7. In Ubuntu. It will boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
+8. In Ubuntu. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
+9. In Ubuntu. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
  
 **Everytime Start DL Coding:**  
