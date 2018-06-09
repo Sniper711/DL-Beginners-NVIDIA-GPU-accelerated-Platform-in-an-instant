@@ -49,11 +49,14 @@ Congratulation, you can start using Jupyter Notebook editor for DL coding.
 8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
 9. Type command **sudo nvidia-smi** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
+10. Type command **sudo docker start -ai tensorflowkeras** to run the docker image calls tensorflowkeras.  
+![](/photo/Picture3a.png)  
 
 **Everytime Start DL Coding:**  
 1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
 2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
 3. Type commend  
+![](/photo/Picture3a.png)  
 
 
 # Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
