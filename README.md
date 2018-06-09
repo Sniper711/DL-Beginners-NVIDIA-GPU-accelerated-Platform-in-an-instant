@@ -50,7 +50,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 9. In Ubuntu. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
  
-**Everytime Start DL Coding:**  
+**Every time Start DL Coding:**  
 1. Boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
 2. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
 3. Type command **`sudo docker start -ai tensorflowkeras`** to run the 'tensorflowkeras' docker image.  
