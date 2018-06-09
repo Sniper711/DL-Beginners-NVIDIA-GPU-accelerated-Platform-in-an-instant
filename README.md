@@ -47,7 +47,8 @@ Congratulation, you can start using Jupyter Notebook editor for DL coding.
 6. Save changes and boot.  
 7. It will boot into Ubuntu, the Ubuntu login password = **nvidia**  
 8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
-9. Type command **sudo nvidia-smi** to exam if correct NVIDIA GPU model is recognized and listed.
+9. Type command **sudo nvidia-smi** to exam if correct NVIDIA GPU model is recognized and listed.  
+![](/photo/Picture2a.png)  
 
 **Everytime Start DL Coding:**  
 1. Boot into Ubuntu, the Ubuntu login password = **nvidia**  
