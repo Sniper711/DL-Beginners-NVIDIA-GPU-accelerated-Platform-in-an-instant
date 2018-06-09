@@ -41,11 +41,11 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 **(One-time) Setup motherboard BIOS and test USB Drive:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
-3. **Turn off 'Security Boot'**.  
+3. `Turn off 'Security Boot'`.  
 4. Remain default 'UEFI boot' option without change it.  
-5. On the **'Boot Priority/Sequency' choose to boot from the USB Drive**.  
+5. On the `'Boot Priority/Sequency' choose to boot from the USB Drive`.  
 6. Save changes and boot.  
-7. It will boot into Ubuntu, the Ubuntu login password = **nvidia**  
+7. It will boot into Ubuntu, the Ubuntu login password = `nvidia`  
 8. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
 9. Type command **nvidia-smi** to exam if your NVIDIA GPU model is correctly recognized and listed.  
 ![](/photo/Picture2a.png)  
