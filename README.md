@@ -58,7 +58,9 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 ![](/photo/Picture3a.png)  
 4. It will show a link, right click mouse to open that link with Firefox.  
 ![](/photo/Picture3b.png)  
-5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!
+5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
+![](/photo/Picture3c.png)  
+![](/photo/Picture3d.png)  
 
 # Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
 
