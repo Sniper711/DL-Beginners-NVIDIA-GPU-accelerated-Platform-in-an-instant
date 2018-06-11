@@ -56,7 +56,7 @@ ___
 **(One-time) Setup motherboard BIOS and test USB Drive:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
-3. On BIOS. **`Turn off 'Security Boot'`**.  
+3. On BIOS. **`Turn off 'Security Boot'`** or **`Enable 'CSM'`**  
 4. On BIOS. Remain default 'UEFI boot' option without change it.  
 5. On BIOS. **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
 6. On BIOS. Save changes and reboot.  
@@ -65,8 +65,10 @@ ___
 9. In Ubuntu. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
    If your NVIDIA GPU model is shown, it means everything works fine.
 ![](/photo/Picture2a.png)  
-(Optional) If your USB Drive is more than 64GB. This USB Image is created with 64GB sized USB Drive. If your USB Drive is more than 64GB physically, after restore your USB Drive will show 64GB only. You can use Ubuntu instruction 'sudo gparted' to expend size.  
-10. In Ubuntu, Type command **`sudo gparted`**
+10. (Optional) If your USB Drive is more than 64GB. This USB Image is created with 64GB sized USB Drive. If your USB Drive is more than 64GB physically, after restore your USB Drive will show 64GB only. You can use Ubuntu instruction 'sudo gparted' to expend size.  
+     In Ubuntu, Type command **`sudo gparted`**  
+     It requires Ubuntu login password, the Ubuntu login password = **`nvidia`**
+     
 
  
 **Every time Start DL Coding:**  
