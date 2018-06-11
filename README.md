@@ -19,7 +19,6 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
    Congratulations! You are all set to go.  
    
 ___
-**`One-time works hereunder`**
 ___
 
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
