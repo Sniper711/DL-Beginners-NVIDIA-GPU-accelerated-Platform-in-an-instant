@@ -30,7 +30,7 @@ ___
    Newly purchased USB Drive used to have 2 partitions that we cannot use.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
    (If Disk Management cannot merge USB partitions, google search 'DiskPart' to clean USB partitions.  
-   DiskPart commands: List Disk, Select Disk #, List Partition, Clean)  
+   DiskPart commands: List Disk -> Select Disk # -> List Partition -> Clean)  
    Format the Single Partition USB Drive in any format that Windows can recognize.  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
    Link = https://www.acronis.com/en-us/personal/computer-backup/  
