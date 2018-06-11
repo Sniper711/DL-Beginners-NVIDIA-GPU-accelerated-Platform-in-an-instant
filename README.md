@@ -4,7 +4,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 # How - 1 minute video https://youtu.be/_T55PHJ0USQ
 1. Restore Image to a high speed USB Drive.  
 2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
-   Congratulations. You can start using Jupyter Notebook editor for DL coding.  
+   Congratulations. You can start using Jupyter Notebook editor, with NVIDIA GPU accelerated Docker platform for DL coding.  
 
    **Every time Start DL Coding:**  
    1. Boot into Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
