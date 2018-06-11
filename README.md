@@ -29,6 +29,7 @@ ___
 2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
    Newly purchased USB Drive used to have 2 partitions that we cannot use.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
+   (If you cannot merge USB partitions, google search 'Disk Part' to clean USB partitions)
    Format the Single Partition USB Drive in any format that Windows can recognize.  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
    Link = https://www.acronis.com/en-us/personal/computer-backup/  
