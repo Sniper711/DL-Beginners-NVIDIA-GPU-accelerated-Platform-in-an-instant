@@ -34,6 +34,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
    Link = https://goo.gl/FF3dQ2  
    
 ************************* . 
+_________________________ . 
 
 **(One-time) Restore USB Image:**  
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
