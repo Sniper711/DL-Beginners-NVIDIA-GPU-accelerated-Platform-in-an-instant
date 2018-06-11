@@ -33,7 +33,8 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
    
-*** 
+************************* . 
+
 **(One-time) Restore USB Image:**  
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
