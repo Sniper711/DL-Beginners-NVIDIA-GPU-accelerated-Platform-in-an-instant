@@ -29,7 +29,7 @@ ___
 2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
    Newly purchased USB Drive used to have 2 partitions that we cannot use.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
-   (If Disk Management cannot merge USB partitions, google search 'Disk Part' to clean USB partitions)  
+   (If Disk Management cannot merge USB partitions, google search 'DiskPart' to clean USB partitions. DiskPart commend list: List Disk, Select Disk #, List Partition, Clean)  
    Format the Single Partition USB Drive in any format that Windows can recognize.  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
    Link = https://www.acronis.com/en-us/personal/computer-backup/  
@@ -68,7 +68,10 @@ ___
 ![](/photo/Picture2a.png)  
 10. (Optional) If your USB Drive is more than 64GB. This USB Image is created with 64GB sized USB Drive. If your USB Drive is more than 64GB physically, after restore your USB Drive will show 64GB only. You can use Ubuntu instruction 'sudo gparted' to expend size.  
      In Ubuntu, Type command **`sudo gparted`**  
-     It requires Ubuntu login password, the Ubuntu login password = **`nvidia`**
+     It requires Ubuntu login password, the Ubuntu login password = **`nvidia`**  
+     Right click 64GB partition, select Resize it.  
+     Drag bar to right end to increase 64GB partition to max physical capacity.
+     Click the 'Green Check Mark' to 
      
 
  
