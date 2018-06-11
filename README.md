@@ -7,14 +7,14 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
    Congratulations. You can start using Jupyter Notebook editor, with NVIDIA GPU accelerated Docker platform for DL coding.  
 
    **Every time Start DL Coding:**  
-   A. Boot from restored Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
-   B. Press hot keys 'ctrl'+'alt'+'t' to launch Ubuntu terminal window.  
-   C. Type command **`sudo docker start -ai tensorflowkeras`** to run the 'tensorflowkeras' docker image.  
+   1. Boot from restored Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
+   2. Press hot keys 'ctrl'+'alt'+'t' to launch Ubuntu terminal window.  
+   3. Type command **`sudo docker start -ai tensorflowkeras`** to run the 'tensorflowkeras' docker image.  
       Ubuntu login password = **`nvidia`**  
    ![](/photo/Picture3a.png)  
-   D. It will show a link, right click mouse to open that link with Firefox.  
+   4. It will show a link, right click mouse to open that link with Firefox.  
    ![](/photo/Picture3b.png)  
-   E. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations.  
+   5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations.  
    ![](/photo/Picture3c.png)  
    Congratulations! You are all set to go.  
    
@@ -27,7 +27,7 @@ ___
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
 2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
-   New USB Drive used to have 2 partitions that we cannot use.  
+   Newly purchased USB Drive used to have 2 partitions that we cannot use.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
    Format the Single Partition USB Drive in any format that Windows can recognize.  
 3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
@@ -65,6 +65,9 @@ ___
 9. In Ubuntu. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
    If your NVIDIA GPU model is shown, it means everything works fine.
 ![](/photo/Picture2a.png)  
+(Optional) If your USB Drive is more than 64GB. This USB Image is created with 64GB sized USB Drive. If your USB Drive is more than 64GB physically, after restore your USB Drive will show 64GB only. You can use Ubuntu instruction 'sudo gparted' to expend size.  
+10. In Ubuntu, Type command **`sudo gparted`**
+
  
 **Every time Start DL Coding:**  
 1. Boot from restored Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
