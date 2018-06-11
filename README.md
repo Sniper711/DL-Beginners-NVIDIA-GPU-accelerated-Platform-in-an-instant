@@ -21,7 +21,7 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 ___
 ___
 
-# Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
+# Step by Step Instructions
 **(One-time) Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
