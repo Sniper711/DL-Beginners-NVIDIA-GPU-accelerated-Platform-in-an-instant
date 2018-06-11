@@ -17,6 +17,9 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
    5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
    ![](/photo/Picture3c.png)  
 
+___
+One-time works hereunder
+___
 
 # Step by Step https://drive.google.com/open?id=1Ej6yEKNOf5cP-3wNcayEGJ_BN4GpzYGz
 **(One-time) Preparation:** 
@@ -32,8 +35,6 @@ DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an inst
 4. Download 21GB USB Drive image I prepared for you.  
    File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
    Link = https://goo.gl/FF3dQ2  
-   
-___
 
 **(One-time) Restore USB Image:**  
 1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
