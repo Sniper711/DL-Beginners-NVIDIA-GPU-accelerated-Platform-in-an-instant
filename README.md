@@ -93,3 +93,7 @@ Use 60000 hand write 0~9 texts for DL convolutional training on NVIDIA GPU.
 ![](/photo/Picture3d.png)  
 
 # Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
+
+以後放資料  
+
+
