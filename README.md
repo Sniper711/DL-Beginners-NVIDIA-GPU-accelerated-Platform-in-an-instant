@@ -85,7 +85,8 @@ ___
 4. It will show a link, right click mouse to open that link with Firefox.  
 ![](/photo/Picture3b.png)  
 5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
-![](/photo/Picture3c.png)  
+![](/photo/Picture3c.png)   
+6. If you have notebooks/dataset  
 
 **NOTE**: The USB includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
