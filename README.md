@@ -74,7 +74,14 @@ ___
 ![](/photo/Picture3b.png)  
 5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
 ![](/photo/Picture3c.png)   
-6. If you have notebooks/dataset  
+
+**Every time start DL Coding (optional skill):**  
+1. These 2 foder path are connexted:  
+   Ubuntu path = //Home/dataset  
+   Docker Image path = //notebooks/dataset  
+   You can **move training data under Ubuntu path = //Home/dataset**, then you can **access it under Docker Image path = //notebook/dataset**  
+   Look at the example screenshot, what ever files under the left window Ubuntu path = //Home/dataset, you can find it on the right window Docker Image path = //notebook/dataset  
+   
 
 
 **NOTE**: The USB includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
