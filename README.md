@@ -1,22 +1,10 @@
 # DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant
 DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an instant.
 
-# How - 1 minute video https://youtu.be/_T55PHJ0USQ
+# How - watch 1 minute video first https://youtu.be/_T55PHJ0USQ
 1. Restore Image to a high speed USB Drive.  
 2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
    Congratulations. You can start using Jupyter Notebook editor, with NVIDIA GPU accelerated Docker platform for DL coding.  
-
-   **Every time Start DL Coding:**  
-   1. Boot from restored Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
-   2. Press hot keys 'ctrl'+'alt'+'t' to launch Ubuntu terminal window.  
-   3. Type command **`sudo docker start -ai tensorflowkeras`** to run the 'tensorflowkeras' docker image.  
-      Ubuntu login password = **`nvidia`**  
-   ![](/photo/Picture3a.png)  
-   4. It will show a link, right click mouse to open that link with Firefox.  
-   ![](/photo/Picture3b.png)  
-   5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations.  
-   ![](/photo/Picture3c.png)  
-   Congratulations! You are all set to go.  
    
 ___
 ___
@@ -87,6 +75,7 @@ ___
 5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
 ![](/photo/Picture3c.png)   
 6. If you have notebooks/dataset  
+
 
 **NOTE**: The USB includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
