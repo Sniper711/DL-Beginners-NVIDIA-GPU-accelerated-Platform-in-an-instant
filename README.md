@@ -85,54 +85,47 @@ ___
 ![](/photo/Picture4a.png)  
 ![](/photo/Picture4b.png)  
 2. Useful Linux instructions  
-A. **Check docker images**  
+A. `Check docker images`  
 Instruction $「sudo docker images」. You can see all docker images, and repository_name:tag info of all docker images.  
 B. `Check containers`  
 Instruction $「sudo docker ps 」, to check running containers  
 Instruction $「sudo docker ps -a 」, to check all containers (no matter it’s running or not). You can see all containers, all containers’ ID, all containers’ name.  
 C. `Delete docker image`  
 Instruction $「sudo docker rmi [add docker image’s repository_name:tag]」, to delete it.  
-D. **Delete container**  
+D. `Delete container`  
 Instruction $「sudo docker rm [add container’s container id]」, or  
 Instruction $「sudo docker rm [add container’s container name]」, to delete it.  
-E. **Save/Snapshot a container into a docker image (to keep it forever)**  
+E. `Save/Snapshot a container into a docker image (to keep it forever)`  
 Instruction $「sudo docker commit [container_ID] [repository_name:Tag]」  
-F. **Save/Snapshot a docker image as a file to be visible by Ubuntu File Folder application, therefore you can move/backup/manage it**  
+F. `Save/Snapshot a docker image as a file to be visible by Ubuntu File Folder application, therefore you can move/backup/manage it`  
 Instruction $「sudo docker save [repository_name:Tag] -o [external_ubuntu_file_path/file_name]」  
-G. **Rename Container**  
+G. `Rename Container`  
 Instruction $「sudo docker rename [Original container_name] [Wanted container_name]」  
-H. After reboot, start/attach closed container, find/copy/paste URL to enter Jupyter Notebook  
+H. `After reboot, start/attach closed container, find/copy/paste URL to enter Jupyter Notebook`  
 Container will be deactivated, whenever quit with Ctrl+C, or PC shutdown.  
 You need to start/attach container.  
 Instruction $「sudo docker ps -a」, to check all available containers (include activated/deactivated containers).  
 Instruction $「sudo docker start -ai [add container’s container id]」, to start/attach container.  
 Now you will see an unique URL link. Copy/Paste it to Firefox then enter Jupyter Notebook.  
-
-==In case of installation failure, you want to reinstall==
-Add “-reinstall” after original install instruction.
-For example: 
-sudo apt install -reinstall cuda
-
-==In case of you failed to download while you do have internet connection, that might caused by DNS setup issue==
-Instruction $「sudo gedit /etc/default/docker」
-Edit document, to remove “#” sign before “DNS 8.8.8.8”, then save and close document.
-Reboot PC, or Instruction $「sudo service docker restart」, to reboot PC.
-
-[Sometimes wifi disconnect because of PC enter power saving mode]
-Go to Ubuntu OS, under “System” icon, find “Internet” icon. 
-Double click “internet” icon, wifi will be reconnected.
-
-==Inside Jupyter Notebook, how to run instructions # (without quiting Jupyter Notebook and go to terminal==
-You just need to add 1 line of code, which is start with “!” sign. 
-For example: 「! pip install」, or「! ls」, or「! cd/home/(your Ubuntu ID)/container」. 
-==Inside Jupyter Notebook, “Tab” key is useful (part 1)==
-If you run instruction # inside Jupyter Notebook with “!” sign, and don’t know all the optional parameters, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)
-For example, you can add 1 line of code「! Plt.」, and press “Tab” key now, it will show all the optional parameters of plt.
-
-==Inside Jupyter Notebook, “Tab” key is useful (part 2)==
-If you run instruction # inside Jupyter Notebook with “!” sign, and you need to call the dataset directory, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)
-For example, you can add 1 line of text 「p = patient.PatientData(“/home/ and press “Tab” now, it will automatically output all the sub-dictory.
-
+I. `In case of installation failure, you want to reinstall`  
+Add “-reinstall” after original install instruction.  
+For example: sudo apt install -reinstall cuda  
+J. `In case of you failed to download while you do have internet connection, that might caused by DNS setup issue`  
+Instruction $「sudo gedit /etc/default/docker」  
+Edit document, to remove “#” sign before “DNS 8.8.8.8”, then save and close document.  
+Reboot PC, or Instruction $「sudo service docker restart」, to reboot PC.  
+K. `Sometimes wifi disconnect because of PC enter power saving mode`  
+Go to Ubuntu OS, under “System” icon, find “Internet” icon.   
+Double click “internet” icon, wifi will be reconnected.  
+L. `Inside Jupyter Notebook, how to run instructions # (without quiting Jupyter Notebook and go to terminal`  
+You just need to add 1 line of code, which is start with “!” sign.  
+For example: 「! pip install」, or「! ls」, or「! cd/home/(your Ubuntu ID)/container」.   
+M. `Inside Jupyter Notebook, “Tab” key is useful (part 1)`  
+If you run instruction # inside Jupyter Notebook with “!” sign, and don’t know all the optional parameters, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
+For example, you can add 1 line of code「! Plt.」, and press “Tab” key now, it will show all the optional parameters of plt.  
+N. `Inside Jupyter Notebook, “Tab” key is useful (part 2)`  
+If you run instruction # inside Jupyter Notebook with “!” sign, and you need to call the dataset directory, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
+For example, you can add 1 line of text 「p = patient.PatientData(“/home/ and press “Tab” now, it will automatically output all the sub-dictory.  
 
 **NOTE**: The USB includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
