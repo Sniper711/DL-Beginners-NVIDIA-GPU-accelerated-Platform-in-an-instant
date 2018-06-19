@@ -87,10 +87,10 @@ ___
 2. Useful Linux instructions  
 A. **Check docker images**  
 Instruction $「sudo docker images」. You can see all docker images, and repository_name:tag info of all docker images.  
-B. **Check containers**  
+B. `Check containers`  
 Instruction $「sudo docker ps 」, to check running containers  
 Instruction $「sudo docker ps -a 」, to check all containers (no matter it’s running or not). You can see all containers, all containers’ ID, all containers’ name.  
-C. **Delete docker image**  
+C. `Delete docker image`  
 Instruction $「sudo docker rmi [add docker image’s repository_name:tag]」, to delete it.  
 D. **Delete container**  
 Instruction $「sudo docker rm [add container’s container id]」, or  
