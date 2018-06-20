@@ -1,5 +1,6 @@
 # DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant
-DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an instant.
+DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an instant.  
+Invest yourself for a better pay with Deep Learning programming skills.  
 
 # How - watch 1 minute video first https://youtu.be/_T55PHJ0USQ
 1. Restore Image to a high speed USB Drive.  
