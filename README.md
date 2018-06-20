@@ -13,7 +13,7 @@ ___
 # Step by Step Instructions
 **(One-time) Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
-   (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
+   (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBps)  
    (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
 2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
    Newly purchased USB Drive used to have 2 partitions that we cannot use.  
