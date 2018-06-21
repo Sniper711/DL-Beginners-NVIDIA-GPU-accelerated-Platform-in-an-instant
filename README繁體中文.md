@@ -43,7 +43,8 @@ ___
 6. 在中央左方'Backup'打勾確認要還原USB映像檔. (步驟4)  
    在中央右方'Recover to(還原到)'下拉謹慎選對那隻空的USB隨身碟. (步驟5)  
    在右下方點選'Recovery now(開始還原/開始恢復)'. (步驟6)  
-   會打開一個新視窗, 務必打勾新視窗下方的 **`'Shot down the computer after completion(完成後自動關機)'`**.  重要! (步驟7)
+   會打開一個新視窗.  
+   務必打勾新視窗下方的 **`'Shot down the computer after completion(完成後自動關機)'`**.  重要! (步驟7)
 ![](/photo/Picture1d.png)  
 7. 完成後會自動關機, 這時候去看個電視吧.  
 
