@@ -51,39 +51,40 @@ ___
 **(只需做一次) 設定主機板BIOS+判別是否支持NVIDIA GPU加速:**  
 1. 關機時, 插上USB隨身碟.
 2. 開機期間, 進入主機板BIOS設定(通常是按DEL鍵,F2或是F10鍵, 依主機板而定).  
-3. 在主機板BIOS設定中, **`關閉'Secure Boot'(Disable 'Secure Boot')`** 或者 **`打開CSM(Enable 'CSM (Compatibility Support Module))'`**  
-4. On BIOS. Remain default 'UEFI boot' option without change it.  
-5. On BIOS. **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
-6. On BIOS. Save changes and reboot.  
-7. In Ubuntu. It will boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
-8. In Ubuntu. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
-9. In Ubuntu. Type command **`nvidia-smi`** to exam if your NVIDIA GPU model is correctly recognized and listed.  
-   If your NVIDIA GPU model is shown, it means everything works fine.
+3. 在主機板BIOS設定中. **`關閉'Secure Boot'(Disable 'Secure Boot')`** 或者 **`打開CSM(Enable 'CSM (Compatibility Support Module))'`**  
+4. 在主機板BIOS設定中. 維持預設的'UEFI開機(UEFI boot)'選項不要去改動它.  
+5. 在主機板BIOS設定中. **`'開機優先順序(Boot Priority/Sequency)選擇最先從這隻USB隨身碟開機`**.  
+6. 在主機板BIOS設定中. 儲存改變並重開機.  
+7. 重開機之後會進到Ubuntu系統內, 系統預設密碼是小寫的 **`nvidia`**  
+8. 進到Ubuntu系統內. 按下'ctrl'+'alt'+'t'組合鍵, 打開Ubuntu終端機視窗.  
+9. 進到Ubuntu系統內. 在Ubuntu終端機視窗, 輸入指令 **`nvidia-smi`** 檢查你的NVIDIA GPU型號是否被正確的顯示出來.  
+   如果你的NVIDIA GPU型號被正確的顯示出來, 表示所有的過程都正確, 你已備妥NVIDIA GPU深度學習高速運算環境.
 ![](/photo/Picture2a.png)  
-10. (Optional) If your USB Drive is more than 64GB. This USB Image is created with 64GB sized USB Drive. If your USB Drive is more than 64GB physically, after restore your USB Drive will show 64GB only. You can use Ubuntu instruction 'sudo gparted' to expend size.  
-     In Ubuntu, Type command **`sudo gparted`**  
-     It requires Ubuntu login password, the Ubuntu login password = **`nvidia`**  
-     Right click 64GB partition, select Resize it.  
-     Drag bar to right end to increase 64GB partition to max physical capacity.
-     Click the 'Green Check Mark' to 
+10. (可選步驟) 如果你的USB隨身碟容量大於64GB. 我的映像檔是從一支64GBUSB隨身碟拍攝下來的. 如果你買的USB隨身碟實際容量大於64GB, 在還原映像檔之後你買的USB隨身碟會變成只有64GB. 你能用Ubuntu指令'sudo gparted'把隱藏的USB隨身碟容量擴增回來.  
+     進到Ubuntu系統內. 在Ubuntu終端機視窗, 輸入指令 **`sudo gparted`**  
+     它會問你Ubuntu開機密碼, 系統預設密碼是小寫的 **`nvidia`**  
+     跳出gparted視窗中, 在64GB的磁碟分區塗上按滑鼠右鍵, 選擇'調整大小(Resize)'.  
+     滑鼠點住橫向長條圖的中央分隔線不放, 從中間向右拖到底, 就能把USB隨身碟容量從64GB擴增到最大容量.  
+     還沒結束喔. 在gparted視窗上面有一個綠色勾勾按鈕, 按下去確認才算完成改變.  
      
 
  
-**Every time Start DL Coding (basic):**  
-1. Boot from restored Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
-2. Press hot keys 'ctrl'+'alt'+'t' to launch Ubuntu terminal window.  
-3. Type command **`sudo docker start -ai tensorflowkeras`** to run the 'tensorflowkeras' docker image.  
-   Ubuntu login password = **`nvidia`**  
+**每次開始寫Deep Learning程式的時候 (基礎篇):**  
+1. 用這隻USB隨身碟開機, 系統預設密碼是小寫的 **`nvidia`**  
+2. 進到Ubuntu系統內. 按下'ctrl'+'alt'+'t'組合鍵, 打開Ubuntu終端機視窗.  
+3. 在Ubuntu終端機視窗, 輸入指令 **`sudo docker start -ai tensorflowkeras`** 啟動'tensorflowkeras'的 docker image.  
+   系統預設密碼是小寫的 **`nvidia`**   
 ![](/photo/Picture3a.png)  
-4. It will show a link, right click mouse to open that link with Firefox.  
+4. 視窗底下出現一個連結, 滑鼠移到連結上按右鍵打開它, 會開啟一個Firefox視窗.  
 ![](/photo/Picture3b.png)  
-5. It's Jupyter Notebook, now you can start Deep Learning coding with NVIIDA GPU Accelerations. Congratulations!  
+5. 恭喜你, 已經打開Jupyter Notebook文字指令編輯器, 現在你能享用NVIDIA GPU深度學習高速運算環境!  
 ![](/photo/Picture3c.png)   
 
-**Every time start DL Coding (advanced):**  
-1. These 2 foder path are connexted:  
-   Ubuntu path = /Home/dataset  
-   Docker Image path = /notebooks/dataset  
+**每次開始寫Deep Learning程式的時候 (進階篇):**  
+1. 下載好的訓練資料, 只會出現在Ubuntu的檔案總管裡, 沒辦法讓NVIDIA Docker Image的虛擬機看見, 怎麼辦呢?  
+   別擔心, 都你設好了, 這兩個目錄是虛實相連的:  
+   Ubuntu檔案總管裡面的目錄 = /Home/dataset  
+   NVIDIA Docker Image裡面的目錄 = /notebooks/dataset  
    You can **move training data under Ubuntu path = /Home/dataset**, then you can **access it under Docker Image path = /notebooks/dataset**  
    Look at the example screenshot, any files you put under the left window Ubuntu path = /Home/dataset, you can find it on the right window Docker Image path = /notebooks/dataset  
    This is important skill for you to train external dataset files.
