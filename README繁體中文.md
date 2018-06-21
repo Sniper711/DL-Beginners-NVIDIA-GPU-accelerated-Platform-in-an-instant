@@ -1,7 +1,7 @@
 # 深度學習初學者祕技! 輕鬆備妥NVIDIA GPU深度學習高速運算環境.
 誰說要先學會安裝Ubuntu, CUDA, Docker, NVIDIA support for Docker, Tensorflow/Keras(且以上安裝方式的官網一直會修改)才能開始寫深度學習?  
 以下的密技讓你輕鬆備妥NVIDIA GPU高速運算環境, 快速開始撰寫深度學習程式, 投資自己賺取更高的年薪.  
-USB隨身碟插上去是GPU加速深度學習機, USB拔起來是遊戲機, 遊戲+學習兩不誤.  
+USB隨身碟插上去是GPU加速深度學習機, USB隨身碟拔起來是遊戲機, 遊戲+學習兩不誤.  
 
 
 # 先觀看一分鐘影片 https://youtu.be/_T55PHJ0USQ
@@ -25,7 +25,7 @@ ___
    DiskPart指令有: List Disk -> Select Disk # -> List Partition -> Clean)  
    任意選用Windows能認得的格式, 格式化這個只有一個磁碟分割區的隨身碟.  
 3. 下載'Acronis True Image 2018'的映像檔還原工具. (試用期間免費, 正版$49美金).  
-   官網網址 = https://www.acronis.com/en-us/personal/computer-backup/  
+   官網網址 = https://www.acronis.com/zh-tw/personal/computer-backup/   
 4. 下載我製作的21GB映像檔.  
    檔名 = 'DLImage_v1.0-4-7_full_b1_s1_v1.tib'  
    下載連結 = https://goo.gl/FF3dQ2  
@@ -47,8 +47,8 @@ ___
 ![](/photo/Picture1d.png)  
 7. 完成後會自動關機, 這時候去看個電視吧.  
 
-**(只需做一次) 設定主機板BIOS, 與測試USB隨身碟是否Setup motherboard BIOS and test USB Drive:**  
-1. When power off, plug-in the USB Drive.
+**(只需做一次) 設定主機板BIOS+判別是否支持NVIDIA GPU加速:**  
+1. 關機時, 插上When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
 3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`**  
 4. On BIOS. Remain default 'UEFI boot' option without change it.  
