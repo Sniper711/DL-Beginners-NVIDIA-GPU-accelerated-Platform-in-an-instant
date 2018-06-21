@@ -22,14 +22,14 @@ ___
    (If Disk Management cannot merge USB partitions, google search 'DiskPart' to clean USB partitions.  
    DiskPart commands are: List Disk -> Select Disk # -> List Partition -> Clean)  
    Format the Single Partition USB Drive in any format that Windows can recognize.  
-3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
+3. Download 'Acronis True Image 2018'. (Trial period for free, $49.99 per copy).  
    Link = https://www.acronis.com/en-us/personal/computer-backup/  
 4. Download 21GB USB Drive image I prepared for you.  
-   File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
+   File Name = 'DLImage_v1.0-4-7_full_b1_s1_v1.tib'  
    Link = https://goo.gl/FF3dQ2  
 
 **(One-time) Restore USB Image:**  
-1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
+1. Install/Sign_In 'Acronis True Image 2018', then quit/close it.  
 2. Move downloaded 21GB USB Drive image to windows desktop.  
 3. Right click that 21GB Drive image icon on desktop, click 'Acronix True Image', then click 'Validate'.  
 ![](/photo/Picture1a.png)  
