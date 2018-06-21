@@ -48,9 +48,9 @@ ___
 7. 完成後會自動關機, 這時候去看個電視吧.  
 
 **(只需做一次) 設定主機板BIOS+判別是否支持NVIDIA GPU加速:**  
-1. 關機時, 插上When power off, plug-in the USB Drive.
-2. While booting up, enter motherboard BIOS settings.  
-3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`**  
+1. 關機時, 插上USB隨身碟.
+2. 開機期間, 進入主機板BIOS設定(通常是按DEL鍵,F2或是F10鍵, 依主機板而定).  
+3. 進入主機板BIOS設定, **`關閉'Secure Boot'(Disable 'Secure Boot')`** 或者 **`Enable 'CSM (Compatibility Support Module)'`**  
 4. On BIOS. Remain default 'UEFI boot' option without change it.  
 5. On BIOS. **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
 6. On BIOS. Save changes and reboot.  
