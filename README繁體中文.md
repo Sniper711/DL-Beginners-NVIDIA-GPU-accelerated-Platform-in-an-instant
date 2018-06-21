@@ -1,21 +1,23 @@
-# DL-Beginners-NVIDIA-GPU-accelerated-Platform-in-an-instant
-DL(Deep Learning) beginners to deploy NVIDIA GPU accelerated platform in an instant.
+# 深度學習初學者祕技! 輕鬆備妥NVIDIA GPU深度學習高速運算環境.
+誰說要先學會安裝Ubuntu, CUDA, Docker, NVIDIA support for Docker, Tensorflow/Keras(且以上安裝方式的官網一直會修改)才能開始寫深度學習?  
+以下的密技讓你輕鬆備妥NVIDIA GPU高速運算環境, 快速開始撰寫深度學習程式, 投資自己賺取更高的年薪.  
 
-# How - watch 1 minute video first https://youtu.be/_T55PHJ0USQ
-1. Restore Image to a high speed USB Drive.  
-2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
-   Congratulations. You can start using Jupyter Notebook editor, with NVIDIA GPU accelerated Docker platform for DL coding.  
+# 先觀看一分鐘影片 https://youtu.be/_T55PHJ0USQ
+1. 下載隨身碟映像檔, 還原到一隻空的高速隨身碟.  
+2. 在NVIDIA GTX 1060以上規格的桌機或者筆電上, 修改主機板BIOS開機選項, 從這支隨身碟開機.  
+   恭喜你. 你已備妥NVIDIA GPU深度學習高速運算環境, 並直接進入Jupyter Notebook文字編輯器.  
    
 ___
 ___
 
-# Step by Step Instructions
-**(One-time) Preparation:** 
-1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
-   (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBpcs)  
-   (Recommend SanDisk Extreme Go CZ800 64GB, Read/Write=200MBps/150MBps)  
-2. Use Windows 10 Disk Management to merge USB Drive 2 partitions into just 1.  
-   Newly purchased USB Drive used to have 2 partitions that we cannot use.  
+# 逐步說明安裝方法
+**(只做一次) 前期準備:** 
+1. 買一隻64GB或者128GB**高速**隨身碟.  
+   (推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
+   (推薦~~SanDisk Extreme Go CZ800 64GB, 讀取/寫入速度=200MBps/150MBps~~)  
+   隨身碟讀取/寫入速度很重要, 務必買最快的.
+2. 用微軟磁碟管理程式(Disk Management)把新買隨身碟的兩個磁碟分割區合併成一個.  
+   新買隨身碟通常有兩個磁碟分割區, 不能用.  
    (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
    (If Disk Management cannot merge USB partitions, google search 'DiskPart' to clean USB partitions.  
    DiskPart commands are: List Disk -> Select Disk # -> List Partition -> Clean)  
