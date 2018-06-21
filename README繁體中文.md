@@ -11,7 +11,7 @@ ___
 ___
 
 # 逐步說明安裝方法
-**(只做一次) 前期準備:** 
+**(只做一次) 準備:** 
 1. 買一隻64GB或者128GB**高速**隨身碟.  
    (推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
    (推薦~~SanDisk Extreme Go CZ800 64GB, 讀取/寫入速度=200MBps/150MBps~~)  
