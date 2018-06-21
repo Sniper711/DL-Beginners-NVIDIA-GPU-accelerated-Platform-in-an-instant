@@ -18,7 +18,7 @@ ___
    隨身碟讀取/寫入速度很重要, 務必買最快的.
 2. 用微軟磁碟管理程式(Disk Management)把新買隨身碟的兩個磁碟分割區合併成一個.  
    新買隨身碟通常有兩個磁碟分割區, 不能用.  
-   (7 ways to open Disk Management in Windows 10 https://goo.gl/SpLMqW )  
+   (7種打開Windows 10磁碟管理程式的方法 https://goo.gl/SpLMqW)  
    (If Disk Management cannot merge USB partitions, google search 'DiskPart' to clean USB partitions.  
    DiskPart commands are: List Disk -> Select Disk # -> List Partition -> Clean)  
    Format the Single Partition USB Drive in any format that Windows can recognize.  
