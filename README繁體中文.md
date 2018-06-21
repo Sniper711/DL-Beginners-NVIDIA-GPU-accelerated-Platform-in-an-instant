@@ -21,7 +21,7 @@ ___
 2. 用微軟磁碟管理程式(Disk Management)把新買隨身碟的兩個磁碟分割區合併成一個.  
    新買隨身碟通常有兩個磁碟分割區, 不能用.  
    (7種打開Windows 10磁碟管理程式的方法 https://goo.gl/SpLMqW)  
-   (如果磁碟管理程式無法合併兩個磁碟分割區成一個, google搜尋'DiskPart'指令, 能完美清除隨身碟上所有磁碟分割區到只剩一個.  
+   (如果磁碟管理程式無法合併兩個磁碟分割區成一個, 使用'DiskPart'指令, 能完美清除隨身碟上所有磁碟分割區到只剩一個.  
    DiskPart指令有: List Disk -> Select Disk # -> List Partition -> Clean)  
    任意選用Windows能認得的格式, 格式化這個只有一個磁碟分割區的隨身碟.  
 3. 下載'Acronis True Image 2018'的映像檔還原工具. (試用期間免費, 正版$49美金).  
