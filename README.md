@@ -82,7 +82,7 @@ ___
    Ubuntu path = /Home/dataset  
    Docker Image path = /notebooks/dataset  
    You can **move training data under Ubuntu path = /Home/dataset**, then you can **access it under Docker Image path = /notebooks/dataset**  
-   Look at the example screenshot, any files you put under the left window Ubuntu path = /Home/dataset, you can find it on the right window Docker Image path = /notebook/dataset  
+   Look at the example screenshot, any files you put under the left window Ubuntu path = /Home/dataset, you can find it on the right window Docker Image path = /notebooks/dataset  
    This is important skill for you to train external dataset files.
 ![](/photo/Picture4a.png)  
 ![](/photo/Picture4b.png)  
