@@ -1,6 +1,8 @@
 # 深度學習初學者祕技! 輕鬆備妥NVIDIA GPU深度學習高速運算環境.
 誰說要先學會安裝Ubuntu, CUDA, Docker, NVIDIA support for Docker, Tensorflow/Keras(且以上安裝方式的官網一直會修改)才能開始寫深度學習?  
 以下的密技讓你輕鬆備妥NVIDIA GPU高速運算環境, 快速開始撰寫深度學習程式, 投資自己賺取更高的年薪.  
+USB隨身碟插上去是GPU加速深度學習機, USB拔起來是遊戲機, 遊戲+學習兩不誤.  
+
 
 # 先觀看一分鐘影片 https://youtu.be/_T55PHJ0USQ
 1. 下載隨身碟映像檔, 還原到一隻空的高速隨身碟.  
@@ -11,7 +13,7 @@ ___
 ___
 
 # 逐步說明安裝方法
-**(只做一次) 準備:** 
+**(只需做一次) 準備:** 
 1. 買一隻64GB或者128GB**高速**隨身碟.  
    (推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
    (推薦~~SanDisk Extreme Go CZ800 64GB, 讀取/寫入速度=200MBps/150MBps~~)  
@@ -19,33 +21,33 @@ ___
 2. 用微軟磁碟管理程式(Disk Management)把新買隨身碟的兩個磁碟分割區合併成一個.  
    新買隨身碟通常有兩個磁碟分割區, 不能用.  
    (7種打開Windows 10磁碟管理程式的方法 https://goo.gl/SpLMqW)  
-   (If Disk Management cannot merge USB partitions, google search 'DiskPart' to clean USB partitions.  
-   DiskPart commands are: List Disk -> Select Disk # -> List Partition -> Clean)  
-   Format the Single Partition USB Drive in any format that Windows can recognize.  
-3. Download “Acronis True Image 2018”. (Trial period for free, $49.99 per copy).  
-   Link = https://www.acronis.com/en-us/personal/computer-backup/  
-4. Download 21GB USB Drive image I prepared for you.  
-   File Name = “DLImage_v1.0-4-7_full_b1_s1_v1.tib”  
-   Link = https://goo.gl/FF3dQ2  
+   (如果磁碟管理程式無法合併兩個磁碟分割區成一個, google搜尋'DiskPart'指令, 能完美清除隨身碟上所有磁碟分割區到只剩一個.  
+   DiskPart指令有: List Disk -> Select Disk # -> List Partition -> Clean)  
+   任意選用Windows能認得的格式, 格式化這個只有一個磁碟分割區的隨身碟.  
+3. 下載'Acronis True Image 2018'的映像檔還原工具. (試用期間免費, 正版$49美金).  
+   官網網址 = https://www.acronis.com/en-us/personal/computer-backup/  
+4. 下載我製作的21GB映像檔.  
+   檔名 = 'DLImage_v1.0-4-7_full_b1_s1_v1.tib'  
+   下載連結 = https://goo.gl/FF3dQ2  
 
-**(One-time) Restore USB Image:**  
-1. Install/Sign_In "Acronis True Image 2018", then quit/close it.  
-2. Move downloaded 21GB USB Drive image to windows desktop.  
-3. Right click that 21GB Drive image icon on desktop, click 'Acronix True Image', then click 'Validate'.  
+**(只需做一次) 還原USB映像檔:**  
+1. 安裝/註冊'Acronis True Image 2018', 之後關閉應用程式.  
+2. 搬移下載的21GB USB映像檔到Windows桌面上.  
+3. 在桌面21GB映像檔圖示按下滑鼠右鍵, 選擇'Acronix True Image', 然後選擇'Validate(驗證)'.  
 ![](/photo/Picture1a.png)  
-4. Acronix True Image app will be launched, choose the image been added on the upper left. (STEP1)  
+4. Acronix True Image應用程式會被開啟, 點選顯示於左上方的映像檔. (步驟1) 
 ![](/photo/Picture1b.png)  
-5. Choose 'Recovery' on the top. (STEP2)  
-   Choose 'Recovery disk' on the bottom. (STEP3)  
+5. 在上方點選'Recovery(還原/恢復)'. (步驟2)  
+   在下方點選'Recovery disk(還原磁碟/恢復磁碟)'. (步驟3)  
 ![](/photo/Picture1c.png)
-6. Choose the 'Backup Image' on the middle left. (STEP4)  
-   Choose the 'Recover to' empty USB Disk on the middle right. (STEP5)  
-   Choose the 'Recovery now' on the bottom right. (STEP6)  
-   On the next pop up page, Check the **`'Shot down the computer after completion'`** on the bottom. Important! (STEP7)
+6. 在中央左方'Backup'打勾確認要還原USB映像檔. (步驟4)  
+   在中央右方'Recover to(還原到)'下拉謹慎選對那隻空的USB隨身碟. (步驟5)  
+   在右下方點選'Recovery now(開始還原/開始恢復)'. (步驟6)  
+   會打開一個新視窗, 務必打勾新視窗下方的 **`'Shot down the computer after completion(完成後自動關機)'`**.  重要! (步驟7)
 ![](/photo/Picture1d.png)  
-7. Automatically shot down after Restore USB Image.  
+7. 完成後會自動關機, 這時候去看個電視吧.  
 
-**(One-time) Setup motherboard BIOS and test USB Drive:**  
+**(只需做一次) 設定主機板BIOS, 與測試USB隨身碟是否Setup motherboard BIOS and test USB Drive:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
 3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`**  
