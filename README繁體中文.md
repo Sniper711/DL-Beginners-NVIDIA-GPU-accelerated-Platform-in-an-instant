@@ -120,10 +120,10 @@ Ubuntu終端機指令「sudo gedit /etc/default/docker」
 K. `有時候進入節電模式後, 無線網路就斷線了`  
 進入Ubuntu作業系統下的'系統(System)'圖示, 按下去找到網路'(Internet)'圖示.   
 按兩下'internet'圖示, 無線網路就會重新連線.  
-L. `Inside Jupyter Notebook, how to run instructions # (without quiting Jupyter Notebook and go to terminal`  
-You just need to add 1 line of code, which is start with “!” sign.  
-For example: 「! pip install」, or「! ls」, or「! cd/home/(your Ubuntu ID)/container」.   
-M. `Inside Jupyter Notebook, “Tab” key is useful (part 1)`  
+L. `'!'符號在Jupyter Notebook編輯器內的妙用. 在Jupyter Notebook編輯器內, 如何能直接執行終端機指令, 而無需退出編輯器`  
+可以在Jupyter Notebook文字編輯器內新增一行以'!'開頭的指令.  
+舉例: 「! pip install」, 或者「! ls」, 或者「! cd/notebooks/dataset」.   
+M. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第一部分)`  
 If you run instruction # inside Jupyter Notebook with “!” sign, and don’t know all the optional parameters, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
 For example, you can add 1 line of code「! Plt.」, and press “Tab” key now, it will show all the optional parameters of plt.  
 N. `Inside Jupyter Notebook, “Tab” key is useful (part 2)`  
