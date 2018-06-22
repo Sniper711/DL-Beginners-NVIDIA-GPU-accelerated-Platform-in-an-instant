@@ -131,9 +131,9 @@ N. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第二部分)`
 舉例來說, 你能在Jupyter Nookbook代碼指定路徑「p = patient.PatientData(“/home/ 緊接著按下'Tab'鍵, 它會自動下拉顯示/home/之下有哪些目錄與檔案能選用, 選用玩若要再往下一層則再次按'Tab'鍵, 一層一層免查詢就輕鬆指定正確路徑.  
 
 **備註**: 這個USB映像檔包含一個範例程式 - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'  
-**`參考書籍#1: TensorFlow+Keras深度學習人工智慧實務應用 ISBN：9789864342167 作者: 林大貴 出版社: 博碩出版社`**  
-**`參考書籍#2:TensorFlow+Keras深度学习人工智能实践应用 ISBN：9787302493020 作者: 林大貴 出版社: 清华大学出版社`**  
-**特別感謝作者 林大貴 老師這隻範例程式的正版授權**  
+  **`參考書籍#1: TensorFlow+Keras深度學習人工智慧實務應用 ISBN：9789864342167 作者: 林大貴 出版社: 博碩出版社`**  
+  **`參考書籍#2:TensorFlow+Keras深度学习人工智能实践应用 ISBN：9787302493020 作者: 林大貴 出版社: 清华大学出版社`**  
+  **特別感謝作者 林大貴 老師這隻範例程式的正版授權** 我特別推薦本書給大家.  
 在程式上按兩下打開它, 然後選擇Jupyter Notebook上方選單的 **`Cell`**, 再選 **`Run All`**.  
 這會自動跑完60000張手寫0~9文字的深度學習訓練, 體驗NVIDIA GPU深度學習高速運算給你帶來的便利. 
 ![](/photo/Picture3d.png)  
