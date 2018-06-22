@@ -103,12 +103,9 @@ F. `Save/Snapshot a docker image as a file to be visible by Ubuntu File Folder a
 Instruction $「sudo docker save [repository_name:Tag] -o [external_ubuntu_file_path/file_name]」  
 G. `Rename Container`  
 Instruction $「sudo docker rename [Original container_name] [Wanted container_name]」  
-H. `After reboot, start/attach closed container, find/copy/paste URL to enter Jupyter Notebook`  
-Container will be deactivated, whenever quit with Ctrl+C, or PC shutdown.  
-You need to start/attach container.  
-Instruction $「sudo docker ps -a」, to check all available containers (include activated/deactivated containers).  
+H. `After reboot, start/attach closed container, find/copy/paste URL to enter Jupyter Notebook`    
 Instruction $「sudo docker start -ai [add container’s container id]」, to start/attach container.  
-Now you will see an unique URL link. Copy/Paste it to Firefox then enter Jupyter Notebook.  
+Now you will see an unique URL link. Right click the link to open with Firefox and enter Jupyter Notebook.  
 I. `In case of installation failure, you want to reinstall`  
 Add “-reinstall” after original install instruction.  
 For example: sudo apt install -reinstall cuda  
