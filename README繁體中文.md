@@ -91,44 +91,43 @@ ___
 ![](/photo/Picture4a.png)  
 ![](/photo/Picture4b.png)  
 2. 好用的Linux指令字典  
-A. `查看docker images`  
-Ubuntu終端機指令「sudo docker images」. 查看所有的docker images, 與其repository_name:tag資訊.  
-B. `查看containers`  
-Ubuntu終端機指令「sudo docker ps 」, 查看正在執行中的containers  
-Ubuntu終端機指令「sudo docker ps -a 」, 查看所有的containers (不管執行中還是沒在執行的). 能看到所有的containers, 包括其containers’ ID, 與containers’ name.  
-C. `刪除docker image`  
+A. `查詢所有的docker images`  
+Ubuntu終端機指令「sudo docker images」. 看所有的docker images, 與其repository_name:tag資訊.  
+B. `查詢所有的containers`  
+Ubuntu終端機指令「sudo docker ps 」, 看正在執行中的containers  
+Ubuntu終端機指令「sudo docker ps -a 」, 看所有的containers (不管執行中還是沒在執行的). 能看到所有的containers, 包括其container ID, 與container name.  
+C. `刪除不要的舊docker image`  
 Ubuntu終端機指令「sudo docker rmi [add docker image’s repository_name:tag]」, 刪除之.  
-D. `刪除container`  
+D. `刪除不要的舊container`  
 Ubuntu終端機指令「sudo docker rm [add container’s container id]」, 或  
 Ubuntu終端機指令「sudo docker rm [add container’s container name]」, 刪除之.  
-E. `把container存成一個docker image (為了要備份起來, 步驟1)`  
+E. `把container存成一個docker image封存起來 (為了要備份起來, 步驟1)`  
 Ubuntu終端機指令「sudo docker commit [container_ID] [repository_name:Tag]」  
-F. `把docker image存成一個外部Ubuntu檔案總管能看見的檔案 (為了要備份起來, 步驟2)`  
-Ubuntu終端機指令「sudo docker save [repository_name:Tag] -o [外部ubuntu檔案路徑/名稱]」  
-G. `改名container`  
-Ubuntu終端機指令「sudo docker rename [原本的container_name] [希望的container_name]」  
-H. `重開機之後, start/attach一個關閉的container, 取得一個能進入Jupyter Notebook的連結`  
-Ubuntu終端機指令「sudo docker start -ai [想打開的container id]」, 來start/attach container.  
-你會看見一個專用URL連結, 滑鼠右鍵點開連結會開啟Firefox視窗, 自動打開Jupyter Notebook. 
-I. `有些模組安裝失敗想要重新安裝一次?`  
-加 “-reinstall” 於原來安裝指令之中.  
-舉例指令: sudo apt install -reinstall cuda  
-J. `如果網路連結正常, 可是特定下載節點就是無法下載, 那可能是DNS設定問題`  
+F. `把docker image存成一個外部Ubuntu檔案總管能看見的檔案, 方便儲存/搬移/備份 (為了要備份起來, 步驟2)`  
+Ubuntu終端機指令「sudo docker save [repository_name:Tag] -o [外部ubuntu檔案絕對路徑/新檔名]」  
+G. `改名container方便管理`  
+Ubuntu終端機指令「sudo docker rename [原本的container_name] [想要的container_name]」  
+H. `重開機之後, start啟動/attach進入已經關閉的container, 取得一個能進入Jupyter Notebook的URL連結`  
+每次Ctrl+C退出, 或者電腦整關後, container都是退出且關閉的. 
+想進入container必須做兩個動作, 啟動＋進入container.
+先用Ubuntu終端機指令「sudo docker ps -a」 看全部包含執行與不執行的containers.
+啟動container：用Ubuntu終端機指令「sudo docker start -ai 加上 container_ID」
+這時候能顯示URL. 滑鼠右鍵點開URL連結會開啟Firefox視窗, 自動打開Jupyter Notebook. 
+I. `如果遇到install過程有小瑕疵, 想要完全複寫重灌`  
+在原來指令install之後補參數-reinstall  
+例如sudo apt install -reinstall cuda  
+J. `如果遇到明明有網路卻不能聯網安裝, 可能是DNS沒有設`  
 Ubuntu終端機指令「sudo gedit /etc/default/docker」  
-編輯文件, 移除'DNS 8.8.8.8'文字之前的'#'符號, 然後儲存並關閉文件.  
-從桌面右上角電源圖示重新啟動電腦, 或者用Ubuntu終端機指令「sudo service docker restart」, 來重新啟動電腦.  
-K. `有時候進入節電模式後, 無線網路就斷線了`  
-進入Ubuntu作業系統下的'系統(System)'圖示, 按下去找到網路'(Internet)'圖示.   
-按兩下'internet'圖示, 無線網路就會重新連線.  
-L. `'!'符號在Jupyter Notebook編輯器內的妙用. 在Jupyter Notebook編輯器內, 如何能直接執行終端機指令, 而無需退出編輯器`  
-可以在Jupyter Notebook文字編輯器內新增一行以'!'開頭的指令.  
-舉例: 「! pip install」, 或者「! ls」, 或者「! cd/notebooks/dataset」.   
+編輯文件 把DNS 8.8.8.8 那行前面#註解符號刪除 (原本寫成了註解沒有執行), 然後儲存並關閉文件.  
+重開電腦, 或者重啟服務Ubuntu終端機指令「sudo service docker restart」  
+K. `遇到無線網路存在 也不是DNS問題 只是太久沒動電腦無線網路自己斷了不回來`  
+到Ubuntu介面 '系統'圖示下 '網路'圖示下 雙擊'無線網路'圖示 會重新連上無線網路  
+L. `'!'符號的妙用. 在Jupyter Notebook內臨時需要到外部Terminal安裝模組, 無需跳出Jupyter Notebook到New Terminal`  
+只要在Jupyter Notebook內新增一行以!開頭的指令執行, 例如! pip install或者! ls 或者! cd /notebooks/dataset   
 M. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第一部分)`  
-在Jupyter Notebook內編寫以'!'開頭的指令時, 卻不知道函式有哪些參數能夠選用, 就把'Tab'鍵按下去.
-舉例來說, 你能在Jupyter Nookbook裡面新增一行指令「! Plt.」, 不知道Plt.之後能選用哪些參數, 這時候按著'Tab', 會自動出現所有Plt.選用的參數.  
+指令plt.後面不知道怎選擇, 能在Jupyter Notebook內新增一行輸入plt.接著按Tab鍵, 所有的選項都自動列出可選.  
 N. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第二部分)`  
-在Jupyter Notebook內編寫以'!'開頭的指令時, 需要指定檔案來源的路徑, 就寫你知道最外層的路徑名稱, 然後把'Tab'鍵按下去.    
-舉例來說, 你能在Jupyter Nookbook代碼指定路徑「p = patient.PatientData(“/home/ 緊接著按下'Tab'鍵, 它會自動下拉顯示/home/之下有哪些目錄與檔案能選用, 選用玩若要再往下一層則再次按'Tab'鍵, 一層一層免查詢就輕鬆指定正確路徑.  
+指令需要取用container裡面的訓練/測試資料集, 而目錄名稱不好找, 能在Jupyter Notebook內新增一行輸入目錄的開頭p = patient.PatientData(“/notebooks/ 接著按Tab鍵, 所有的子目錄都自動列出可選).  
 
 **備註**: 這個USB映像檔包含一個範例程式 - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'  
   **`參考書籍#1: TensorFlow+Keras深度學習人工智慧實務應用 ISBN：9789864342167 作者: 林大貴 出版社: 博碩出版社`**  
