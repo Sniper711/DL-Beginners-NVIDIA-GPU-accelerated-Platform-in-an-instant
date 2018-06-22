@@ -124,18 +124,22 @@ L. `'!'符號在Jupyter Notebook編輯器內的妙用. 在Jupyter Notebook編輯
 可以在Jupyter Notebook文字編輯器內新增一行以'!'開頭的指令.  
 舉例: 「! pip install」, 或者「! ls」, 或者「! cd/notebooks/dataset」.   
 M. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第一部分)`  
-If you run instruction # inside Jupyter Notebook with “!” sign, and don’t know all the optional parameters, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
-For example, you can add 1 line of code「! Plt.」, and press “Tab” key now, it will show all the optional parameters of plt.  
-N. `Inside Jupyter Notebook, “Tab” key is useful (part 2)`  
-If you run instruction # inside Jupyter Notebook with “!” sign, and you need to call the dataset directory, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
-For example, you can add 1 line of text 「p = patient.PatientData(“/home/ and press “Tab” now, it will automatically output all the sub-dictory.  
+在Jupyter Notebook內編寫以'!'開頭的指令時, 卻不知道函式有哪些參數能夠選用, 就把'Tab'鍵按下去.
+舉例來說, 你能在Jupyter Nookbook裡面新增一行指令「! Plt.」, 不知道Plt.之後能選用哪些參數, 這時候按著'Tab', 會自動出現所有Plt.選用的參數.  
+N. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第二部分)`  
+在Jupyter Notebook內編寫以'!'開頭的指令時, 需要指定檔案來源的路徑, 就寫你知道最外層的路徑名稱, 然後把'Tab'鍵按下去.    
+舉例來說, 你能在Jupyter Nookbook代碼指定路徑「p = patient.PatientData(“/home/ 緊接著按下'Tab'鍵, 它會自動下拉顯示/home/之下有哪些目錄與檔案能選用, 選用玩若要再往下一層則再次按'Tab'鍵, 一層一層免查詢就輕鬆指定正確路徑.  
 
-**NOTE**: The USB image includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
-Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
-Use 60000 hand write 0~9 texts for DL convolutional training on NVIDIA GPU. 
+**備註**: 這個USB映像檔包含一個範例程式 - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb' 
+# 參考書籍#1: TensorFlow+Keras深度學習人工智慧實務應用 ISBN：9789864342167 作者: 林大貴 出版社: 博碩出版社  
+# 參考書籍#2:TensorFlow+Keras深度学习人工智能实践应用 ISBN：9787302493020 作者: 林大貴 出版社: 清华大学出版社  
+### 特別感謝作者 林大貴 老師這隻範例程式的正版授權  
+在程式上按兩下打開它, 然後選擇Jupyter Notebook上方選單的 **`Cell`**, 再選 **`Run All`**.  
+這會自動跑完60000張手寫0~9文字的深度學習訓練, 體驗NVIDIA GPU深度學習高速運算給你帶來的便利. 
 ![](/photo/Picture3d.png)  
 
-# Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
+# 這裡有個簡短的PPT檔, 介紹本秘技給你帶來的好處. https://drive.google.com/open?id=15GhsZpFBQWe4GWcdmnvagsDtRtWRXgF2  
+
  
 
 
