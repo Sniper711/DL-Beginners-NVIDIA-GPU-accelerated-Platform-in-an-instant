@@ -60,7 +60,7 @@ ___
 9. 進到Ubuntu系統內. 在Ubuntu終端機視窗, 輸入指令 **`nvidia-smi`** 檢查你的NVIDIA GPU型號是否被正確的顯示出來.  
    如果你的NVIDIA GPU型號被正確的顯示出來, 表示所有的過程都正確, 你已備妥NVIDIA GPU深度學習高速運算環境.
 ![](/photo/Picture2a.png)  
-10. (可選步驟) 如果你的USB隨身碟容量大於64GB. 我的映像檔是從一支64GBUSB隨身碟拍攝下來的. 如果你買的USB隨身碟實際容量大於64GB, 在還原映像檔之後你買的USB隨身碟會變成只有64GB. 你能用Ubuntu指令'sudo gparted'把隱藏的USB隨身碟容量擴增回來.  
+10. (可選步驟) 如果你的USB隨身碟容量大於64GB. 我的映像檔是從一支64GB容量USB隨身碟拍攝下來的. 如果你買的USB隨身碟實際容量大於64GB, 在還原映像檔之後你買的USB隨身碟會變成只有64GB. 你能用Ubuntu指令'sudo gparted'把隱藏的USB隨身碟容量擴增回來.  
      進到Ubuntu系統內. 在Ubuntu終端機視窗, 輸入指令 **`sudo gparted`**  
      它會問你Ubuntu開機密碼, 系統預設密碼是小寫的 **`nvidia`**  
      跳出gparted視窗中, 在64GB的磁碟分區圖上按滑鼠右鍵, 選擇'調整大小(Resize)'.  
@@ -104,25 +104,22 @@ Ubuntu終端機指令「sudo docker rm [add container’s container name]」, �
 E. `把container存成一個docker image (為了要備份起來, 步驟1)`  
 Ubuntu終端機指令「sudo docker commit [container_ID] [repository_name:Tag]」  
 F. `把docker image存成一個外部Ubuntu檔案總管能看見的檔案 (為了要備份起來, 步驟2)`  
-Ubuntu終端機指令「sudo docker save [repository_name:Tag] -o [external_ubuntu_file_path/file_name]」  
+Ubuntu終端機指令「sudo docker save [repository_name:Tag] -o [外部ubuntu檔案路徑/名稱]」  
 G. `改名container`  
-Instruction $「sudo docker rename [Original container_name] [Wanted container_name]」  
-H. `After reboot, start/attach closed container, find/copy/paste URL to enter Jupyter Notebook`  
-Container will be deactivated, whenever quit with Ctrl+C, or PC shutdown.  
-You need to start/attach container.  
-Instruction $「sudo docker ps -a」, to check all available containers (include activated/deactivated containers).  
-Instruction $「sudo docker start -ai [add container’s container id]」, to start/attach container.  
-Now you will see an unique URL link. Copy/Paste it to Firefox then enter Jupyter Notebook.  
-I. `In case of installation failure, you want to reinstall`  
-Add “-reinstall” after original install instruction.  
-For example: sudo apt install -reinstall cuda  
-J. `In case of you failed to download while you do have internet connection, that might caused by DNS setup issue`  
-Instruction $「sudo gedit /etc/default/docker」  
-Edit document, to remove “#” sign before “DNS 8.8.8.8”, then save and close document.  
-Reboot PC, or Instruction $「sudo service docker restart」, to reboot PC.  
-K. `Sometimes wifi disconnect because of PC enter power saving mode`  
-Go to Ubuntu OS, under “System” icon, find “Internet” icon.   
-Double click “internet” icon, wifi will be reconnected.  
+Ubuntu終端機指令「sudo docker rename [原本的container_name] [希望的container_name]」  
+H. `重開機之後, start/attach一個關閉的container, 取得一個能進入Jupyter Notebook的連結`  
+Ubuntu終端機指令「sudo docker start -ai [想打開的container id]」, 來start/attach container.  
+你會看見一個專用URL連結, 滑鼠右鍵點開連結會開啟Firefox視窗, 自動打開Jupyter Notebook. 
+I. `有些模組安裝失敗想要重新安裝一次?`  
+加 “-reinstall” 於原來安裝指令之中.  
+舉例指令: sudo apt install -reinstall cuda  
+J. `如果網路連結正常, 可是特定下載節點就是無法下載, 那可能是DNS設定問題`  
+Ubuntu終端機指令「sudo gedit /etc/default/docker」  
+編輯文件, 移除'DNS 8.8.8.8'文字之前的'#'符號, 然後儲存並關閉文件.  
+從桌面右上角電源圖示重新啟動電腦, 或者用Ubuntu終端機指令「sudo service docker restart」, 來重新啟動電腦.  
+K. `有時候進入節電模式後, 無線網路就斷線了`  
+進入Ubuntu作業系統下的'系統(System)'圖示, 按下去找到網路'(Internet)'圖示.   
+按兩下'internet'圖示, 無線網路就會重新連線.  
 L. `Inside Jupyter Notebook, how to run instructions # (without quiting Jupyter Notebook and go to terminal`  
 You just need to add 1 line of code, which is start with “!” sign.  
 For example: 「! pip install」, or「! ls」, or「! cd/home/(your Ubuntu ID)/container」.   
