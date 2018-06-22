@@ -114,8 +114,8 @@ Instruction $「sudo gedit /etc/default/docker」
 Edit document, to remove '#' sign before 'NS 8.8.8.8', then save and close document.  
 Reboot PC, or Instruction $「sudo service docker restart」, to reboot PC.  
 K. `Sometimes wifi disconnect because of PC enter power saving mode`  
-Go to Ubuntu OS, under 'System' icon, find “Internet” icon.   
-Double click “internet” icon, wifi will be reconnected.  
+Go to Ubuntu OS, under 'System' icon, find 'Internet' icon.   
+Double click 'internet' icon, wifi will be reconnected.  
 L. `Inside Jupyter Notebook, how to run instructions # (without quiting Jupyter Notebook and go to terminal`  
 You just need to add 1 line of code, which is start with “!” sign.  
 For example: 「! pip install」, or「! ls」, or「! cd/home/(your Ubuntu ID)/container」.   
