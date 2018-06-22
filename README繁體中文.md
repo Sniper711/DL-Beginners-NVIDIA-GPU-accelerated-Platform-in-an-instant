@@ -82,30 +82,30 @@ ___
 
 **每次開始寫Deep Learning程式的時候 (進階篇):**  
 1. 下載好的訓練資料, 只會出現在Ubuntu的檔案總管裡, 沒辦法讓NVIDIA Docker Image的虛擬機看見, 怎麼辦呢?  
-   別擔心, 都你設好了, 這兩個目錄是虛實相連的:  
+   別擔心, 都幫你設定好了, 這兩個目錄是虛實相連的:  
    Ubuntu檔案總管裡面的目錄 = /Home/dataset  
    NVIDIA Docker Image裡面的目錄 = /notebooks/dataset  
-   You can **move training data under Ubuntu path = /Home/dataset**, then you can **access it under Docker Image path = /notebooks/dataset**  
-   Look at the example screenshot, any files you put under the left window Ubuntu path = /Home/dataset, you can find it on the right window Docker Image path = /notebooks/dataset  
-   This is important skill for you to train external dataset files.
+   你能 **把訓練資料搬到Ubuntu檔案總管裡面的目錄 = /Home/dataset**, 這樣就能 **在NVIDIA Docker Image裡面的目錄 = /notebooks/dataset取用**  
+   看我底下的螢幕截圖, 任何新增在左邊視窗Ubuntu檔案總管裡面的目錄 = /Home/dataset內的檔案或目錄, 都能在右邊視窗NVIDIA Docker Image裡面的目錄 = /notebooks/dataset被取用  
+   當你需要下載外部訓練訓練資料時(總是如此), 這是一個重要且必要的技能.  
 ![](/photo/Picture4a.png)  
 ![](/photo/Picture4b.png)  
-2. Useful Linux instructions  
-A. `Check docker images`  
-Instruction $「sudo docker images」. You can see all docker images, and repository_name:tag info of all docker images.  
-B. `Check containers`  
-Instruction $「sudo docker ps 」, to check running containers  
-Instruction $「sudo docker ps -a 」, to check all containers (no matter it’s running or not). You can see all containers, all containers’ ID, all containers’ name.  
-C. `Delete docker image`  
-Instruction $「sudo docker rmi [add docker image’s repository_name:tag]」, to delete it.  
-D. `Delete container`  
-Instruction $「sudo docker rm [add container’s container id]」, or  
-Instruction $「sudo docker rm [add container’s container name]」, to delete it.  
-E. `Save/Snapshot a container into a docker image (to keep it forever)`  
-Instruction $「sudo docker commit [container_ID] [repository_name:Tag]」  
-F. `Save/Snapshot a docker image as a file to be visible by Ubuntu File Folder application, therefore you can move/backup/manage it`  
-Instruction $「sudo docker save [repository_name:Tag] -o [external_ubuntu_file_path/file_name]」  
-G. `Rename Container`  
+2. 好用的Linux指令字典  
+A. `查看docker images`  
+Ubuntu終端機指令「sudo docker images」. 查看所有的docker images, 與其repository_name:tag資訊.  
+B. `查看containers`  
+Ubuntu終端機指令「sudo docker ps 」, 查看正在執行中的containers  
+Ubuntu終端機指令「sudo docker ps -a 」, 查看所有的containers (不管執行中還是沒在執行的). 能看到所有的containers, 包括其containers’ ID, 與containers’ name.  
+C. `刪除docker image`  
+Ubuntu終端機指令「sudo docker rmi [add docker image’s repository_name:tag]」, 刪除之.  
+D. `刪除container`  
+Ubuntu終端機指令「sudo docker rm [add container’s container id]」, 或  
+Ubuntu終端機指令「sudo docker rm [add container’s container name]」, 刪除之.  
+E. `把container存成一個docker image (為了要備份起來, 步驟1)`  
+Ubuntu終端機指令「sudo docker commit [container_ID] [repository_name:Tag]」  
+F. `把docker image存成一個外部Ubuntu檔案總管能看見的檔案 (為了要備份起來, 步驟2)`  
+Ubuntu終端機指令「sudo docker save [repository_name:Tag] -o [external_ubuntu_file_path/file_name]」  
+G. `改名container`  
 Instruction $「sudo docker rename [Original container_name] [Wanted container_name]」  
 H. `After reboot, start/attach closed container, find/copy/paste URL to enter Jupyter Notebook`  
 Container will be deactivated, whenever quit with Ctrl+C, or PC shutdown.  
