@@ -111,7 +111,7 @@ Add “-reinstall” after original install instruction.
 For example: sudo apt install -reinstall cuda  
 J. `In case of you failed to download while you do have internet connection, that might caused by DNS setup issue`  
 Instruction $「sudo gedit /etc/default/docker」  
-Edit document, to remove “#” sign before “DNS 8.8.8.8”, then save and close document.  
+Edit document, to remove '#' sign before “DNS 8.8.8.8”, then save and close document.  
 Reboot PC, or Instruction $「sudo service docker restart」, to reboot PC.  
 K. `Sometimes wifi disconnect because of PC enter power saving mode`  
 Go to Ubuntu OS, under “System” icon, find “Internet” icon.   
