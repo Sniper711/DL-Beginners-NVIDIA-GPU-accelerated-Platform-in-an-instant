@@ -13,7 +13,7 @@ ___
 ___
 
 # 逐步說明安裝方法
-**(只需做一次) 準備:** 
+**(僅需一次) 準備:** 
 1. 買一隻64GB或者128GB**高速**隨身碟.  
    (推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
    (推薦~~SanDisk Extreme Go CZ800 64GB, 讀取/寫入速度=200MBps/150MBps~~)  
@@ -30,7 +30,7 @@ ___
    檔名 = 'DLImage_v1.0-4-7_full_b1_s1_v1.tib'  
    下載連結 = https://goo.gl/FF3dQ2  
 
-**(只需做一次) 還原USB映像檔:**  
+**(僅需一次) 還原USB映像檔:**  
 1. 安裝/註冊'Acronis True Image 2018', 之後關閉應用程式.  
 2. 搬移下載的21GB USB映像檔到Windows桌面上.  
 3. 在桌面21GB映像檔圖示按下滑鼠右鍵, 選擇'Acronix True Image', 然後選擇'Validate(驗證)'.  
@@ -48,7 +48,7 @@ ___
    務必打勾新視窗下方的 **`'Shot down the computer after completion(完成後自動關機)'`**.  重要! (步驟7)
 7. 完成後會自動關機, 這時候去看個電視吧.  
 
-**(只需做一次) 設定主機板BIOS+判別是否支持NVIDIA GPU加速:**  
+**(僅需一次) 設定主機板BIOS+判別是否支持NVIDIA GPU加速:**  
 1. 關機時, 插上USB隨身碟.
 2. 開機期間, 進入主機板BIOS設定(通常是按DEL鍵,F2或是F10鍵, 依主機板而定).  
 3. 在主機板BIOS設定中. **`關閉'Secure Boot'(Disable 'Secure Boot')`** 或者 **`打開CSM(Enable 'CSM (Compatibility Support Module))'`**  
