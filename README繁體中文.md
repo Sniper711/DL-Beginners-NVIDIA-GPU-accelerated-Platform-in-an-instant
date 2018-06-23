@@ -30,7 +30,7 @@ ___
    檔名 = 'DLImage_v1.0-4-7_full_b1_s1_v1.tib'  
    下載連結 = https://goo.gl/FF3dQ2  
 
-**(僅需一次) 還原USB映像檔:**  
+**(僅需一次) 7步驟還原USB映像檔:**  
 1. 安裝/註冊'Acronis True Image 2018', 之後關閉應用程式.  
 2. 搬移下載的21GB USB映像檔到Windows桌面上.  
 3. 在桌面21GB映像檔圖示按下滑鼠右鍵, 選擇'Acronix True Image', 然後選擇'Validate(驗證)'.  
