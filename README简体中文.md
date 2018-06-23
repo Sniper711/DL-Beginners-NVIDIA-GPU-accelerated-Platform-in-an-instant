@@ -1,13 +1,16 @@
-# 深度學習初學者祕技! 輕鬆備妥NVIDIA GPU深度學習高速運算環境.
+# 深度学习初学者秘技! 轻松备妥NVIDIA GPU深度学习高速运算环境.
+谁说要先学会安装Ubuntu, CUDA, Docker, NVIDIA support for Docker, Tensorflow/Keras(且以上安装方式的官网一直会修改)才能开始写深度学习?  
+以下的密技让你轻松备妥NVIDIA GPU高速运算环境, 快速开始撰写深度学习代码, 投资自己赚取更高的年薪.  
+U插上去是GPU加速深度学习机, USB随身碟拔起来是游戏机, 游戏+学习两不误.
 誰說要先學會安裝Ubuntu, CUDA, Docker, NVIDIA support for Docker, Tensorflow/Keras(且以上安裝方式的官網一直會修改)才能開始寫深度學習?  
 以下的密技讓你輕鬆備妥NVIDIA GPU高速運算環境, 快速開始撰寫深度學習程式, 投資自己賺取更高的年薪.  
-USB隨身碟插上去是GPU加速深度學習機, USB隨身碟拔起來是遊戲機, 遊戲+學習兩不誤.  
+U盘插上去是GPU加速深度学习机, U盘拔起来是游戏机, 从此游戏+学习两不误.  
 
 
-# 先觀看一分鐘影片 https://youtu.be/_T55PHJ0USQ
-1. 下載隨身碟映像檔, 還原到一隻空的高速隨身碟.  
-2. 在NVIDIA GTX 1060以上規格GPU的桌機或者筆電上, 修改主機板BIOS開機選項, 從這支隨身碟開機.  
-   恭喜你. 你已備妥NVIDIA GPU深度學習高速運算環境, 並直接進入Jupyter Notebook文字編輯器.  
+# 先看一分钟视频 https://youtu.be/_T55PHJ0USQ
+1. 下载映像档, 还原到一只空的高速U盘.  
+2. 在NVIDIA GTX 1060以上规格GPU的台式机或者笔记本上, 修改主板BIOS开机选项, 从这支U盘开机.
+恭喜你. 你已备妥NVIDIA GPU深度学习高速运算环境, 并直接进入Jupyter Notebook文字编辑器.  
    
 ___
 ___
