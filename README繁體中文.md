@@ -87,7 +87,7 @@ ___
    NVIDIA Docker Image裡面的目錄 = /notebooks/dataset  
    你能 **把訓練資料搬到Ubuntu檔案總管裡面的目錄 = /Home/dataset**, 這樣就能 **在NVIDIA Docker Image裡面的目錄 = /notebooks/dataset取用**  
    看我底下的螢幕截圖, 任何新增在左邊視窗Ubuntu檔案總管裡面的目錄 = /Home/dataset內的檔案或目錄, 都能在右邊視窗NVIDIA Docker Image裡面的目錄 = /notebooks/dataset被取用  
-   當你需要下載外部訓練訓練資料時(總是如此), 這是一個重要且必要的技能.  
+   當你需要下載外部訓練訓練資料時(總是如此), 這是一個重要且必備的技能.  
 ![](/photo/Picture4a.png)  
 ![](/photo/Picture4b.png)  
 2. 好用的Linux指令字典  
