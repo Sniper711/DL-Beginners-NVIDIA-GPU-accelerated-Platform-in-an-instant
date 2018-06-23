@@ -48,7 +48,7 @@ ___
    務必打勾新視窗下方的 **`'Shot down the computer after completion(完成後自動關機)'`**.  重要! (步驟7)
 7. 完成後會自動關機, 這時候去看個電視吧.  
 
-**(僅需一次) 設定主機板BIOS+判別是否支持NVIDIA GPU加速:**  
+**(僅需一次) 設定主機板BIOS+判別是否成功支持NVIDIA GPU加速:**  
 1. 關機時, 插上USB隨身碟.
 2. 開機期間, 進入主機板BIOS設定(通常是按DEL鍵,F2或是F10鍵, 依主機板而定).  
 3. 在主機板BIOS設定中. **`關閉'Secure Boot'(Disable 'Secure Boot')`** 或者 **`打開CSM(Enable 'CSM (Compatibility Support Module))'`**  
