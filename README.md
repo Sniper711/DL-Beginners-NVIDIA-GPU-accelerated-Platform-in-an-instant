@@ -51,7 +51,7 @@ ___
 2. While booting up, enter motherboard BIOS settings.  
 3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`**  
 4. On BIOS. Remain default 'UEFI boot' option without change it.  
-5. On BIOS. **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
+5. On BIOS. **`'Boot Priority/Sequence' choose to boot from the USB Drive`**.  
 6. On BIOS. Save changes and reboot.  
 7. In Ubuntu. It will boot into Ubuntu, the Ubuntu login password = **`nvidia`**  
 8. In Ubuntu. Press hot keys 'ctrl'+'alt'+'t' to open Ubuntu terminal window.  
