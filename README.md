@@ -42,7 +42,8 @@ ___
    Choose the 'Recover to' empty USB Disk on the middle right. (STEP5)  
    Choose the 'Recovery now' on the bottom right. (STEP6)  
 ![](/photo/Picture1d.png)  
-   On the next pop up page, Check the **`'Shot down the computer after completion'`** on the bottom. Important! (STEP7)  
+   This will pop up a new window.  
+   On the newly pop up page, you must check the **`'Shot down the computer after completion'`** on the bottom. Important! (STEP7)  
 7. Automatically shot down after Restore USB Image.  
 
 **(One-time) Setup motherboard BIOS and test USB Drive:**  
