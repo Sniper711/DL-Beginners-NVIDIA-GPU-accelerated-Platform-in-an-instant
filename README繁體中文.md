@@ -60,7 +60,7 @@ ___
 9. 進到Ubuntu系統內. 在Ubuntu終端機視窗, 輸入指令 **`nvidia-smi`** 檢查你的NVIDIA GPU型號是否被正確的顯示出來.  
    如果你的NVIDIA GPU型號被正確的顯示出來, 表示所有的過程都正確, 你已備妥NVIDIA GPU深度學習高速運算環境.
 ![](/photo/Picture2a.png)  
-10. (可選步驟) 如果你的USB隨身碟容量大於64GB. 我的映像檔是從一支64GB容量USB隨身碟拍攝下來的. 如果你買的USB隨身碟實際容量大於64GB, 在還原映像檔之後你買的USB隨身碟會變成只有64GB. 你能用Ubuntu指令'sudo gparted'把隱藏的USB隨身碟容量擴增回來.  
+10. (選用步驟) 如果你買的USB隨身碟實際容量大於64GB, 在還原映像檔之後你買的USB隨身碟會縮小到只有64GB, 這是因為我的映像檔是從一支64GB容量USB隨身碟拍攝下來的. 你能用Ubuntu指令'sudo gparted'把隱藏的USB隨身碟容量擴增回來.  
      進到Ubuntu系統內. 在Ubuntu終端機視窗, 輸入指令 **`sudo gparted`**  
      它會問你Ubuntu開機密碼, 系統預設密碼是小寫的 **`nvidia`**  
      跳出gparted視窗中, 在64GB的磁碟分區圖上按滑鼠右鍵, 選擇'調整大小(Resize)'.  
