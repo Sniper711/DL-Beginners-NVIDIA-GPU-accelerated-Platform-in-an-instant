@@ -46,7 +46,7 @@ ___
    On the newly pop up page, you must **Check** the **`'Shot down the computer after completion'`** on the bottom. Important! (STEP7)  
 7. Automatically shot down after Restore USB Image.  
 
-**(One-time) Setup motherboard BIOS and test USB Drive:**  
+**(One-time) Setup motherboard BIOS + test USB Drive is NVIDIA GPU acceleration supported:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
 3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`**  
