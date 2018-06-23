@@ -17,7 +17,7 @@ ___
 1. 買一隻64GB或者128GB**高速**隨身碟.  
    (推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
    (推薦~~SanDisk Extreme Go CZ800 64GB, 讀取/寫入速度=200MBps/150MBps~~)  
-   隨身碟讀取/寫入速度很重要, 務必買最快的.
+   隨身碟讀取/寫入速度很重要, 訓練過程資料頻繁讀寫, 務必買最快的.
 2. 用微軟磁碟管理程式(Disk Management)把新買隨身碟的兩個磁碟分割區合併成一個.  
    新買隨身碟通常有兩個磁碟分割區, 不能用.  
    (7種打開Windows 10磁碟管理程式的方法 https://goo.gl/SpLMqW)  
