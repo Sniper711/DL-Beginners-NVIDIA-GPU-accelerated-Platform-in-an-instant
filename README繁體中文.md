@@ -137,7 +137,7 @@ N. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第二部分)`
 這會自動跑完60000張手寫0~9文字的深度學習訓練, 體驗NVIDIA GPU深度學習高速運算給你帶來的便利. 
 ![](/photo/Picture3d.png)  
 
-# 這裡有個簡短的PPT檔, 介紹本秘技給你帶來的好處. https://drive.google.com/open?id=15GhsZpFBQWe4GWcdmnvagsDtRtWRXgF2  
+# 這裡有個簡短的PDF檔, 介紹本秘技給你帶來的好處. https://drive.google.com/open?id=15GhsZpFBQWe4GWcdmnvagsDtRtWRXgF2  
 
  
 
