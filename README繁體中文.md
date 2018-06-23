@@ -1,7 +1,7 @@
 # 深度學習初學者祕技! 輕鬆備妥NVIDIA GPU深度學習高速運算環境.
 誰說要先學會安裝Ubuntu, CUDA, Docker, NVIDIA support for Docker, Tensorflow/Keras(且以上安裝方式的官網一直會修改)才能開始寫深度學習?  
 以下的密技讓你輕鬆備妥NVIDIA GPU高速運算環境, 快速開始撰寫深度學習程式, 投資自己賺取更高的年薪.  
-USB隨身碟插上去是GPU加速深度學習機, USB隨身碟拔起來是遊戲機, 遊戲+學習兩不誤.  
+USB隨身碟插上去是GPU加速深度學習機, USB隨身碟拔起來是遊戲機, 從此遊戲+學習兩不誤.  
 
 
 # 先觀看一分鐘影片 https://youtu.be/_T55PHJ0USQ
