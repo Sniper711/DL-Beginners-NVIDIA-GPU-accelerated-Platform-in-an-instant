@@ -15,7 +15,7 @@ ___
 # 逐步說明安裝方法
 **(僅需一次) 準備:** 
 1. 買一隻64GB或者128GB**高速**隨身碟.  
-   (推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
+   (最推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
    (推薦~~SanDisk Extreme Go CZ800 64GB, 讀取/寫入速度=200MBps/150MBps~~)  
    隨身碟讀取/寫入速度很重要, 訓練過程資料頻繁讀寫, 務必買最快的.
 2. 用微軟磁碟管理程式(Disk Management)把新買隨身碟的兩個磁碟分割區合併成一個.  
