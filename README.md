@@ -9,7 +9,7 @@ Invest yourself for a better pay with Deep Learning programming skills.
   
 ___
 ___
-# Step by Step Instructions
+# Step by Step Instructions (One-time)  
 **(One-time) Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
    (Recommend SanDisk Extreme Pro CZ880 128GB, Read/Write=420MBps/380MBps)  
@@ -63,9 +63,11 @@ ___
      Right click 64GB partition, select Resize it.  
      Drag bar to right end to increase 64GB partition to max physical capacity.
      Click the 'Green Check Mark' to 
-     
-
  
+  
+___
+___ 
+# Start DL Coding (Every time) 
 **Every time Start DL Coding (basic):**  
 1. Boot from restored Ubuntu USB Drive, the Ubuntu login password = **`nvidia`**  
 2. Press hot keys 'ctrl'+'alt'+'t' to launch Ubuntu terminal window.  
