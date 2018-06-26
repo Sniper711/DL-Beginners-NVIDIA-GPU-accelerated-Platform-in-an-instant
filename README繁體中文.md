@@ -132,6 +132,7 @@ N. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第二部分)`
    
 ___
 ___
+# 推薦中文書籍  
 **備註**: 這個USB映像檔包含一個範例程式 - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'  
   **`參考書籍#1: TensorFlow+Keras深度學習人工智慧實務應用 ISBN：9789864342167 作者: 林大貴 出版社: 博碩出版社`**  
   **`參考書籍#2:TensorFlow+Keras深度学习人工智能实践应用 ISBN：9787302493020 作者: 林大貴 出版社: 清华大学出版社`**  
