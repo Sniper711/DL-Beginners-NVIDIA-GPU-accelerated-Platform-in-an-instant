@@ -12,7 +12,7 @@ USB隨身碟插上去是GPU加速深度學習機, USB隨身碟拔起來是遊戲
 ___
 ___
 
-# 逐步說明安裝方法
+# 逐步說明安裝方法(僅需一次)  
 **(僅需一次) 準備:** 
 1. 買一隻64GB或者128GB**高速**隨身碟.  
    (最推薦SanDisk Extreme Pro CZ880 128GB, 讀取/寫入速度=420MBps/380MBps)  
@@ -66,9 +66,10 @@ ___
      跳出gparted視窗中, 在64GB的磁碟分區圖上按滑鼠右鍵, 選擇'調整大小(Resize)'.  
      滑鼠點住橫向長條圖的中央分隔線不放, 從中間向右拖到底, 就能把USB隨身碟容量從64GB擴增到最大容量.  
      還沒結束喔. 在gparted視窗上面有一個綠色勾勾按鈕, 按下去確認才算完成改變.  
-     
-
- 
+   
+___
+___
+# 開始使用(每次都要)  
 **每次開始寫Deep Learning程式的時候 (基礎篇):**  
 1. 用這隻USB隨身碟開機, 系統預設密碼是小寫的 **`nvidia`**  
 2. 進到Ubuntu系統內. 按下'ctrl'+'alt'+'t'組合鍵, 打開Ubuntu終端機視窗.  
@@ -128,7 +129,9 @@ M. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第一部分)`
 指令plt.後面不知道怎選擇, 能在Jupyter Notebook內新增一行輸入plt.接著按Tab鍵, 所有的選項都自動列出可選.  
 N. `'Tab'鍵在Jupyter Notebook編輯器內的妙用 (第二部分)`  
 指令需要取用container裡面的訓練/測試資料集, 而目錄名稱不好找, 能在Jupyter Notebook內新增一行輸入目錄的開頭p = patient.PatientData(“/notebooks/ 接著按Tab鍵, 所有的子目錄都自動列出可選).  
-
+   
+___
+___
 **備註**: 這個USB映像檔包含一個範例程式 - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'  
   **`參考書籍#1: TensorFlow+Keras深度學習人工智慧實務應用 ISBN：9789864342167 作者: 林大貴 出版社: 博碩出版社`**  
   **`參考書籍#2:TensorFlow+Keras深度学习人工智能实践应用 ISBN：9787302493020 作者: 林大貴 出版社: 清华大学出版社`**  
