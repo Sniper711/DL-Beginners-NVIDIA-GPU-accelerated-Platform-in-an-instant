@@ -6,10 +6,9 @@ Invest yourself for a better pay with Deep Learning programming skills.
 1. Restore Image to a high speed USB Drive.  
 2. On NVIDIA GPU Desktop/Laptop (GeForce GTX 1060 and above), change motherboard BIOS settings and boot from USB Drive.  
    Congratulations. You can start using Jupyter Notebook editor, with NVIDIA GPU accelerated Docker platform for DL coding.  
-   
+  
 ___
 ___
-
 # Step by Step Instructions
 **(One-time) Preparation:** 
 1. Buy 1pcs high speed USB Drive 64GB or 128GB.  
