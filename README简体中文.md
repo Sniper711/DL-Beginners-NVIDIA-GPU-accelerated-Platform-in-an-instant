@@ -12,7 +12,7 @@ U插上去是GPU加速深度学习机, USB随身碟拔起来是游戏机, 游戏
 ___
 ___
 
-# 手把手教学
+# 手把手教学(仅需一次)  
 **(仅需一次) 准备:** 
 1. 买一只64GB或者128GB**高速**U盘.  
    (最推荐SanDisk Extreme Pro CZ880 128GB, 读取/写入速度=420MBps/380MBps)  
@@ -30,8 +30,6 @@ ___
    档名 = 'DLImage_v1.0-4-7_full_b1_s1_v1.tib'  
    下载链接：https://share.weiyun.com/5nSEZUV 密码：bpanvc  
    备用下载链接：https://pan.baidu.com/s/1XrXkftgXzSazyiynBkt2vQ 密码：k3wj
-
-   
 
 **(仅需一次) 7步骤还原USB映像档:**  
 1. 安装/注册'Acronis True Image 2018', 之後关闭应用程序.  
@@ -69,9 +67,10 @@ ___
      跳出gparted视窗中, 在64GB的磁盘分区图上按鼠标右键, 选择'调整大小(Resize)'.  
      鼠标点住横向长条图的中央分隔线不放, 从中间向右拖到底, 就能把U盘容量从64GB扩增到最大容量.  
      还没结束喔. 在gparted视窗上面有一个绿色勾勾按钮, 按下去确认才算完成改变.  
-     
-
- 
+   
+___
+___
+# 开始使用(每次都要)  
 **每次开始写Deep Learning程式的时候 (基础篇):**  
 1. 用这只U盘开机, 系统预设密码是小写的 **`nvidia`**  
 2. 进到Ubuntu系统内. 按下'ctrl'+'alt'+'t'组合键, 打开Ubuntu终端机视窗.  
@@ -89,7 +88,7 @@ ___
    Ubuntu档案总管里面的目录 = /Home/dataset  
    NVIDIA Docker Image里面的目录 = /notebooks/dataset  
    你能 **把训练资料搬到Ubuntu档案总管里面的目录 = /Home/dataset**, 这样就能 **在NVIDIA Docker Image里面的目录 = /notebooks/dataset取用**  
-   看我底下的萤幕截图, 任何新增在左边视窗Ubuntu档案总管里面的目录 = /Home/dataset内的档案或目录, 都能在右边视窗NVIDIA Docker Image里面的目录 = /notebooks/dataset被取用  
+   看我底下的屏幕截图, 任何新增在左边视窗Ubuntu档案总管里面的目录 = /Home/dataset内的档案或目录, 都能在右边视窗NVIDIA Docker Image里面的目录 = /notebooks/dataset被取用  
    当你需要下载外部训练训练资料时(总是如此), 这是一个重要且必备的技能.  
 ![](/photo/Picture4a.png)  
 ![](/photo/Picture4b.png)  
@@ -131,7 +130,10 @@ M. `'Tab'键在Jupyter Notebook编辑器内的妙用 (第一部分)`
 指令plt.後面不知道怎选择, 能在Jupyter Notebook内新增一行输入plt.接着按Tab键, 所有的选项都自动列出可选.  
 N. `'Tab'键在Jupyter Notebook编辑器内的妙用 (第二部分)`  
 指令需要取用container里面的训练/测试资料集, 而目录名称不好找, 能在Jupyter Notebook内新增一行输入目录的开头p = patient.PatientData(“/notebooks/ 接着按Tab键, 所有的子目录都自动列出可选).  
-
+   
+___
+___
+# 推荐中文书籍  
 **备注**: 这个USB映像档包含一个范例程式 - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'  
   **`参考书籍#1: TensorFlow+Keras深度学习人工智慧实务应用 ISBN：9789864342167 作者: 林大贵 出版社: 博硕出版社`**  
   **`参考书籍#2:TensorFlow+Keras深度学习人工智能实践应用 ISBN：9787302493020 作者: 林大贵 出版社: 清华大学出版社`**  
