@@ -127,7 +127,10 @@ For example, you can add 1 line of code「! Plt.」, and press “Tab” key now
 N. `Inside Jupyter Notebook, “Tab” key is useful (part 2)`  
 If you run instruction # inside Jupyter Notebook with “!” sign, and you need to call the dataset directory, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
 For example, you can add 1 line of text 「p = patient.PatientData(“/home/ and press “Tab” now, it will automatically output all the sub-dictory.  
-
+ 
+  
+___
+___ 
 **NOTE**: The USB image includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
 Use 60000 hand write 0~9 texts for DL convolutional training on NVIDIA GPU. 
