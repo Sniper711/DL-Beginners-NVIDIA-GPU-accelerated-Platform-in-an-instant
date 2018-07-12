@@ -144,7 +144,7 @@ ___
  
 ___
 ___
-# NVIDIA GPU 加速 13~19 倍快  
+# NVIDIA GPU 加速19倍快  
 **GTX 1080 GPU 是 i7 CPU的 18.38倍快, 在IMBD影評分析上(Recurrent模型)**  
 ![](/photo/GPUis18.38xfasterthanCPU.jpg)  
 **GTX 1080 GPU 是 i7 CPU的 12.84倍快, 在MNIST手寫辨識分析上 (Convelutional模型)**  
