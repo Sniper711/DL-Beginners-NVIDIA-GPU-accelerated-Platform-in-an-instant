@@ -139,10 +139,10 @@ Use 60000 hand write 0~9 texts for DL convolutional training on NVIDIA GPU.
  
 ___
 ___
-# NVIDIA GPU Accelerations 
-**GTX 1080 GPU is 18.38x performance than the best i7 CPU, on IMBD Analysis with MLP and Large Dictionary (Recurrent model)**  
+# NVIDIA GPU accelerates 19x times faster 
+**GTX 1080 GPU is 18.38x performance than i7 CPU, on IMBD Analysis with MLP and Large Dictionary (Recurrent model)**  
 ![](/photo/GPUis18.38xfasterthanCPU.jpg)  
-**GTX 1080 GPU is 12.84x performance than the nest i7 CPU, on MNIST Analysis (Convelutional model)**  
+**GTX 1080 GPU is 12.84x performance than i7 CPU, on MNIST Analysis (Convelutional model)**  
 ![](/photo/GPUis12.84xfasterthanCPU.jpg)  
 
 # Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
