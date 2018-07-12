@@ -127,14 +127,7 @@ For example, you can add 1 line of code「! Plt.」, and press “Tab” key now
 N. `Inside Jupyter Notebook, “Tab” key is useful (part 2)`  
 If you run instruction # inside Jupyter Notebook with “!” sign, and you need to call the dataset directory, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
 For example, you can add 1 line of text 「p = patient.PatientData(“/home/ and press “Tab” now, it will automatically output all the sub-dictory.  
- 
-___
-___
-# NVIDIA GPU Accelerations  
-**GTX 1080 GPU is 18.38x performance than the best i7 CPU, on IMBD Analysis with MLP and Large Dictionary (Recurrent basic model)**  
-![](/photo/GPUis18.38xfasterthanCPU.jpg)  
-**GTX 1080 GPU is 12.84x performance than the nest i7 CPU, on MNIST Analysis (Convelutional basic model)**  
-![](/photo/GPUis12.84xfasterthanCPU.jpg)  
+
 
 ___
 ___ 
@@ -142,6 +135,15 @@ ___
 Double click to open it, then choose  **`Cell`**, then choose **`Run All`**.  
 Use 60000 hand write 0~9 texts for DL convolutional training on NVIDIA GPU. 
 ![](/photo/Picture3d.png)  
+
+ 
+___
+___
+# NVIDIA GPU Accelerations 
+**GTX 1080 GPU is 18.38x performance than the best i7 CPU, on IMBD Analysis with MLP and Large Dictionary (Recurrent model)**  
+![](/photo/GPUis18.38xfasterthanCPU.jpg)  
+**GTX 1080 GPU is 12.84x performance than the nest i7 CPU, on MNIST Analysis (Convelutional model)**  
+![](/photo/GPUis12.84xfasterthanCPU.jpg)  
 
 # Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
  
