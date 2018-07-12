@@ -128,7 +128,14 @@ N. `Inside Jupyter Notebook, “Tab” key is useful (part 2)`
 If you run instruction # inside Jupyter Notebook with “!” sign, and you need to call the dataset directory, here is a useful way by press “Tab” key. (without quit Jupyter Notebook)  
 For example, you can add 1 line of text 「p = patient.PatientData(“/home/ and press “Tab” now, it will automatically output all the sub-dictory.  
  
-  
+___
+___
+# NVIDIA GPU Accelerations  
+**GTX 1080 GPU is 18.38x performance than the best i7 CPU, on IMBD Analysis with MLP and Large Dictionary (Recurrent basic model)**  
+![](/photo/GPU is 18.38x faster than CPU.jpg)  
+**GTX 1080 GPU is 12.84x performance than the nest i7 CPU, on MNIST Analysis (Convelutional basic model)**  
+![](/photo/GPU is 12.84x faster than CPU.jpg)  
+
 ___
 ___ 
 **NOTE**: The USB image includes an example code - 'NVIDIA+GPU+Deep+Learning+Acceleration+Keras+Example+Code.ipynb'   
