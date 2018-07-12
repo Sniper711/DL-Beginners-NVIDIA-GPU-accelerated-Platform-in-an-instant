@@ -142,6 +142,14 @@ ___
 这会自动跑完60000张手写0~9文字的深度学习训练, 体验NVIDIA GPU深度学习高速运算给你带来的便利.  
 ![](/photo/Picture3d.png)  
 
+___
+___
+# NVIDIA GPU 加速19倍快  
+**GTX 1080 GPU 是 i7 CPU的 18.38倍快, 在IMBD影评分析上(Recurrent模型)**  
+![](/photo/GPUis18.38xfasterthanCPU.jpg)  
+**GTX 1080 GPU 是 i7 CPU的 12.84倍快, 在MNIST手写辨识分析上 (Convelutional模型)**  
+![](/photo/GPUis12.84xfasterthanCPU.jpg)  
+
 # 这里有个简短的PDF档, 介绍本秘技给你带来的好处. 下载链接：https://pan.baidu.com/s/1HU12dji2olfdiVP-HXNhBA 密码：mf5f 
 
  
