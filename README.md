@@ -132,9 +132,9 @@ ___
 ___
 # NVIDIA GPU Accelerations  
 **GTX 1080 GPU is 18.38x performance than the best i7 CPU, on IMBD Analysis with MLP and Large Dictionary (Recurrent basic model)**  
-![](/photo/GPU is 18.38x faster than CPU.jpg)  
+![](/photo/GPUis18.38xfasterthanCPU.jpg)  
 **GTX 1080 GPU is 12.84x performance than the nest i7 CPU, on MNIST Analysis (Convelutional basic model)**  
-![](/photo/GPU is 12.84x faster than CPU.jpg)  
+![](/photo/GPUis12.84xfasterthanCPU.jpg)  
 
 ___
 ___ 
