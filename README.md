@@ -145,7 +145,7 @@ ___
 **GTX 1080 GPU is 12.84x performance than i7 CPU, on MNIST Analysis**  
 ![](/photo/GPUis12.84xfasterthanCPU.jpg)  
 
-# Your Benefits - Short PDF Deck https://drive.google.com/open?id=1lO3m7iRyBn1wYJ74W7-NKCy7SsgZRKsT
+# Your Benefits - Short PDF Deck https://drive.google.com/open?id=13RjL-wPwTtjf9vVsrOUb-zG2E3LJ2HEx
  
 
 
