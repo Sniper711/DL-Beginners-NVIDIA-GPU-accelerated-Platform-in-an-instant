@@ -150,7 +150,7 @@ ___
 **GTX 1080 GPU 是 i7 CPU的 12.84倍快, 在MNIST手写辨识分析上**  
 ![](/photo/GPUis12.84xfasterthanCPU.jpg)  
 
-# 这里有个简短的PDF档, 介绍本秘技给你带来的好处. 下载链接：https://drive.google.com/open?id=1BwG5Oy2663L4yTKFARke0lTQ_QP4AzX5 
+# 这里有个简短的PDF档, 介绍本秘技给你带来的好处. 下载链接：链接：https://pan.baidu.com/s/1fFh6L4wemPaTdJHwYkMdiw 密码：l8up
 
  
 
