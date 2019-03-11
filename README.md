@@ -48,7 +48,9 @@ ___
 **(One-time) Setup motherboard BIOS + test USB Drive is NVIDIA GPU acceleration supported:**  
 1. When power off, plug-in the USB Drive.
 2. While booting up, enter motherboard BIOS settings.  
-3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`**  
+3. On BIOS. **`Disable 'Secure Boot'`** or **`Enable 'CSM (Compatibility Support Module)'`** 
+   Refer this if you don't know how to do:
+   https://www.youtube.com/watch?v=iIuEb-Ek6-U
 4. On BIOS. Remain default 'UEFI boot' option without change it.  
 5. On BIOS. **`'Boot Priority/Sequency' choose to boot from the USB Drive`**.  
 6. On BIOS. Save changes and reboot.  
