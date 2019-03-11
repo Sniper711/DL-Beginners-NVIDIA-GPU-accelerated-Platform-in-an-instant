@@ -53,6 +53,8 @@ ___
 1. 关机时, 插上U盘.
 2. 开机期间, 进入主板BIOS设定(通常是按DEL键,F2或是F10键, 依主板而定).  
 3. 在主板BIOS设定中. **`关闭'Secure Boot'(Disable 'Secure Boot')`** 或者 **`打开CSM(Enable 'CSM (Compatibility Support Module))'`**  
+   參考做法:
+   https://www.youtube.com/watch?v=iIuEb-Ek6-U
 4. 在主板BIOS设定中. 维持预设的'UEFI开机(UEFI boot)'选项不要去改动它.  
 5. 在主板BIOS设定中. **`'开机优先顺序(Boot Priority/Sequency)选择最先从这只U盘开机`**.  
 6. 在主板BIOS设定中. 储存改变并重开机.  
