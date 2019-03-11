@@ -52,6 +52,8 @@ ___
 1. 關機時, 插上USB隨身碟.
 2. 開機期間, 進入主機板BIOS設定(通常是按DEL鍵,F2或是F10鍵, 依主機板而定).  
 3. 在主機板BIOS設定中. **`關閉'Secure Boot'(Disable 'Secure Boot')`** 或者 **`打開CSM(Enable 'CSM (Compatibility Support Module))'`**  
+   參考做法:
+   https://www.youtube.com/watch?v=iIuEb-Ek6-U
 4. 在主機板BIOS設定中. 維持預設的'UEFI開機(UEFI boot)'選項不要去改動它.  
 5. 在主機板BIOS設定中. **`'開機優先順序(Boot Priority/Sequency)選擇最先從這隻USB隨身碟開機`**.  
 6. 在主機板BIOS設定中. 儲存改變並重開機.  
